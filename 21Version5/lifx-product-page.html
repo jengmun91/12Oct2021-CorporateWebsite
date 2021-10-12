@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta charset="utf-8"> -->
+  <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>21 MainPage</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/apple-touch-icon.svg" rel="icon">
+  <link href="assets/img/favicon.svg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <link type="text/css" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> -->
+
+  <!--Add neumorphism-->
+  <link type="text/css" href="assets/css/neumorphism.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/styleTabbar.css">
+  <!-- Template Main CSS File -->
+  <!-- <link href="assets/css/style.css" rel="stylesheet">  -->
+
+
+  <!--only Column CSS used newFlicCSS.css-->
+  <link rel="stylesheet" href="./assets/css/newFlicCSS.css">
+
+
+
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="@themesberg">
+  <meta name="twitter:title" content="Neumorphism UI by Themesberg">
+  <meta name="twitter:description"
+    content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages.">
+  <meta name="twitter:creator" content="@themesberg">
+  <meta name="twitter:image"
+    content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg">
+
+  <!-- Open Graph data -->
+  <meta property="fb:app_id" content="214738555737136">
+  <meta property="og:title" content="Neumorphism UI by Themesberg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://demo.themesberg.com/neumorphism-ui/" />
+  <meta property="og:image"
+    content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg" />
+  <meta property="og:description"
+    content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages." />
+  <meta property="og:site_name" content="Themesberg" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--Add a global variable of website name url then just pass all url link change to relative url-->
+
+</head>
+
+<body style="background-color:white;">
+
+  <header class="container-fluid headerCSS">
+    <div id="mySidenav" class="sidenav">
+      <div class="d-flex LogoRowCSS">
+        <div class="menuBarClose" href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
+            class="fas fa-bars fa-lg"></i> <i class="fas fa-chevron-right fa-lg"></i></div>
+        <div class="margin-right:auto; logoMenuCSS"><img src="./assets/img/21-Logo-Horizontal_3.png"></a></div>
+        <div class="horozontalLineCSS"></div>
+        <div class="text-black m-t-21 p-l-7">
+          <p>twenty-one</p>
+        </div>
+
+      </div>
+      <div style="text-align:end;">
+        <a href="#">HOME <img src="./assets/img/home_icon.png" class="homeIconCSS m-l-20 m-r-50 m-t-n10"> </a>
+        <a href="#">OVERVIEW <img src="./assets/img/overview_icon.png" class="overViewIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <a href="#">MISSION <img src="./assets/img/mission_icon.png" class="missionIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <a href="#">VISION <img src="./assets/img/vision_icon.png" class="visionIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <button class="dropdown-btn">PRODUCT & SOLUTIONS <img src="./assets/img/ProductandSolution_icon.png"
+            class="m-l-9 m-r-n17 m-t-n-5 ProdandSolIconCSS">
+          <i class="fa fa-caret-down p-t-5 m-l-0 m-r-15 "></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="./lifx-product-page.html" style="padding-right:60px;">LIFX</a>
+          <a href="./ring-product-page.html" style="padding-right:60px;">RING</a>
+          <a href="" style="padding-right:60px;">FLIC</a>
+        </div>
+
+        <a href="./contact-us.html">CONTACT US<img src="./assets/img/contactus_icon.png"
+            class="contactusIconCSS m-l-29 m-r-50 m-t-n5 "></a>
+
+      </div>
+
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+
+
+    <span onclick="openNav()"> <i class="fas fa-bars fa-lg p-t-40 p-l-40 p-r-40 float-r text-grey"></i></span>
+
+
+
+
+  </header>
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero3">
+    <video autoplay muted loop id="myVideo2">
+      <source src="./assets/video/bg1.mp4" type="video/mp4">
+    </video>
+
+    <div class="textLifxPage col-lg-6 col-md-6 m-t-210 m-l-50">
+      <div class="lifxLogo text-center animated bounceInDown m-l-110"><img src="./assets/img/lifx/lifx_logo_white.png">
+      </div>
+      <div class="wholeRow m-l-30 w-100">
+        <div class="firstRowCSS animated bounceInLeft"><img src="./assets/img/lifx/lifx_SetTheTone_txt_white.png"
+            class="m-t-8"></div>
+        <div class="thirdRowCSS intro-heading animated bounceInRight m-t-0 text-right"> <img
+            src="./assets/img/lifx/lifx_GeneralLightning_txt_white.png" style="height:25px;"></div>
+        <div class="forthRowCSS intro-paragraph animated bounceInRight"> <img
+            src="./assets/img/lifx/lifx_Hori-Line_white.png"></div>
+        <div class="forthRowCSS intro-paragraph animated bounceInUp m-t-0 m-b-0"> <img
+            src="./assets/img/lifx/lifx_SetTheTone_paragraph_txt_white.png"></div>
+
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+
+
+
+
+
+
+
+
+<!--Test using FLic 2 col-->
+
+    <!--Upgrade &amp; Simplify Your Life-->
+    <section class="container image-copy-content vertical-site-padding m-t-180">
+      <div class="row vertical-site-padding-half">
+        <div class="col-md-5 image fliclazy" data-aos="fade-right"
+        data-aos-delay="100"
+          style="background-image: url('assets/img/lifx/Kickass_colour_1080x.jpeg');">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6 copy" data-aos="fade-left" data-aos-delay="100">
+          <h3>Kickass Color</h3>
+          <p>It's hard to exaggerate the impact that LIFX's unique color depth has on a
+            space. Whether subtle tints for entertaining,selecting Spooky effect for kid-friendly fun, or drowning
+            your home in red to help you sleep tonight, LIFX bulbs can be your new normal.</p>
+        </div>
+      </div>
+      <div class="row vertical-site-padding-half">
+        <div class="col-md-5 order-md-last image fliclazy" data-aos="fade-left"
+        data-aos-delay="100" style="background-image: url('assets/img/lifx/Easy-on-the-eye-mini-day-dusk_1080x.jpg');">
+        </div>
+        <div class="col-md-6 copy vertical-site-padding-half" data-aos="fade-right"
+        data-aos-delay="100">
+          <div class="" >
+            <h3>Easy on the eye</h3>
+            <p>LIFX is a design business. The lines and angles of the industrial design for
+              our products means you may lean towards exposingthem, even when they're off.</p>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+      <div class="row vertical-site-padding-half">
+        <div class="col-md-5 image fliclazy" data-aos="fade-right"
+        data-aos-delay="100" style="background-image: url('assets/img/lifx/Theyll_do_what_you_tell_them_to_VOICE_1080x.png');">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6 copy" data-aos="fade-left"
+        data-aos-delay="100">
+          <h3>They'll do what you tell them to</h3>
+          <p>All LIFX lights work with all major voice assistants.
+            Whether using a smart speaker or just your phone - why not try it out now? Change color, dim, on/off and
+            lots more.</p>
+        </div>
+      </div>
+    </section>
+
+<!--end Test usinh Flic 2 col-->
+
+
+
+    <!-- ======= Products Section ======= -->
+    <section id="ProductsSection" class="Products" >
+
+      <div class="container ">
+
+        <div class="row firstRowLightBulb" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-md-3 col-sm-6">
+            <img src="./assets/img/lifx/00_LIFX-Color-Image-Hero-AU-E27_1080x copy.jpg">
+            <h5>Colour</h5>
+            <h6 class="fw-w900">1000 Lumens</h6>
+            <p class="fs-14">70W equivalent using only 9W <br>Cool to warm whites: 1500-9000K<br>
+              Full Colour: Premium RGB LEDs</p>
+          </div>
+
+          <div class="col-md-3 col-sm-6 ">
+            <img src="./assets/img/lifx/00-White-Hero-image-bulb_pack-AU-E27_720x.jpg">
+            <h5>White</h5>
+            <h6 class="fw-w900">800 Lumens</h6>
+            <p class="fs-14">60W equivalent using only 8W <br>
+              Soft white light: 2700K <br>
+              Latest Generation </p>
+          </div>
+
+          <div class="col-md-3 col-sm-6 ">
+            <img src="./assets/img/lifx/00_WW-Image-Hero-AU-E27_540x.jpg">
+            <h5>White to Warm</h5>
+            <h6 class="fw-w900">800 Lumens</h6>
+            <p class="fs-14">70W equivalent using only 9W<br>
+              Cool to warm whites: 1500-9000K <br>
+              Latest Generation </p>
+          </div>
+
+
+          <div class="col-md-3 col-sm-6">
+            <img src="./assets/img/lifx/00_A60_COLOR_PDP-AU_E27_540x.jpg">
+            <h5>Colour A60</h5>
+            <h6 class="fw-w900">1200 Lumens</h6>
+            <p class="fs-14">80W equivalent using only 11.5W <br>
+              Cool to warm whites: 1500-9000K <br>
+              Full Colour: Premium RGB LEDs</p>
+          </div>
+
+        </div>
+
+
+        <div class="row secondRowLightBulb" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-md-3 col-sm-6">
+            <img src="./assets/img/lifx/00-LIFX-Clean-AU-E27_540x.jpg">
+            <h5>Clean A60</h5>
+            <h6 class="fw-w900">1000 Lumens</h6>
+            <p class="fs-14">80W equivalent using only 11.5W <br>
+              Cool to warm whites: 1500-9000K <br>
+              Full Colour: Premium RGB LEDs <br>
+              Antibacterial: HEV LEDs </p>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <img src="./assets/img/lifx/00_LIFX_Candle_WW_E14-WithPack_540x.jpg">
+            <h5>Candle White to Warm</h5>
+            <h6 class="fw-w900">480 Lumens </h6>
+            <p class="fs-14">40W equivalent using only 6W <br>
+              Cool to warm whites: 2200-6500K <br>
+              Custom dual diffuser </p>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <img src="./assets/img/lifx/00_LIFX_Candle_Colour_E14_INT_1_1080x.jpg">
+            <h5> Candle Colour</h5>
+            <h6 class="fw-w900">Polychrome Technology </h6>
+            <p class="fs-14">5W for energy efficiency <br>
+              Full colour: Premium RGB LEDs <br>
+              Billions of colour combinations
+            </p>
+          </div>
+
+
+
+          <div class="col-md-3 col-sm-6">
+            <img src="./assets/img/lifx/00_Lightstrip_1m_AU_1080x.jpg">
+            <h5> Lightstrip 1m</h5>
+            <h6 class="fw-w900">Colour Zones </h6>
+            <p class="fs-14">45W equivalent using only 8W <br>
+              Cool to warm whites: 1500-9000K <br>
+              Full Colour: Premium RGB LEDs <br>
+              Polychrome Technology
+            </p>
+          </div>
+
+
+
+
+
+
+        </div>
+
+
+        <div class="row thirdRowLightBulb" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-md-3 col-sm-6">
+            <img src="./assets/img/lifx/00-LIFX-Clean-AU-E27_540x.jpg">
+            <h5>Beam</h5>
+            <h6 class="fw-w900">Polychrome Technology</h6>
+            <p class="fs-14">27W across 6 Beams at full brightness <br>
+              Full colour: Premium RGB LEDs <br>
+              Billions of colour combinations </p>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <img src="./assets/img/lifx/LIFX-GU10-Hero-image-bulb_pack-INT-C02_1080x.jpg">
+            <h5>GU10 Colour</h5>
+            <h6 class="fw-w900">400 Lumens</h6>
+            <p class="fs-14">35W equivalent using only 6W <br>
+              Cool to warm whites: 2500-9000K<br>
+              Full Colour: Premium RGB LEDs </p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section><!-- End Product Section -->
+
+
+
+
+
+
+    <!-- ======= Footer ======= -->
+    <footer class="d-flex pt-6 pb-5 pt-md-7 border-top border-light" data-aos="fade-up" data-aos-delay="150"
+      style="background-color:#020D2D;">
+      <div class="container m-t-n10">
+
+        <div class="row col-lg-12 text-greyFooter p-0" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-md-2 col-sm-4">
+            <h6 class="text-greyFooter">COMPANY</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <div class="lh-1-9 p-0 fs-14 m-b-50 m-l-15">
+              <a href="#" class="LinkTextCSS">Overview</a><br>
+              <a href="#" class="LinkTextCSS">Mission</a><br>
+              <a href="#" class="LinkTextCSS">Vision</a><br>
+              <a href="#" class="LinkTextCSS">Values</a>
+            </div>
+
+
+          </div>
+
+
+          <div class="col-md-3 col-sm-6">
+            <h6 class="text-greyFooter">PRODUCTS AND SOLUTIONS</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+            <div class="lh-1-9 p-0 fs-14 m-b-50 m-l-15">
+              <a href="#" class="LinkTextCSS">LIFX</a><br>
+              <a href="#" class="LinkTextCSS">Ring</a><br>
+              <a href="#" class="LinkTextCSS">flic</a>
+            </div>
+
+          </div>
+
+          <div class="col-md-2 col-sm-2 m-b-50" style="color:#1E9FD9;">
+            <h6 class="text-greyFooter" href="./contact-us.html">CONTACT</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <p class="fs-12 p-0 text-greyFooter m-l-15">info@twenty-one.com.sg<br>+65 8777 5721</p>
+
+
+            <a class="ContactBtnCSS m-l-15" href="./contact-us.html">CONTACT US</a>
+
+          </div>
+
+
+          <div class="col-md-5 col-sm-10 p-b-30 text-greyFooter">
+            <h6 class="text-greyFooter">LOCATIONS</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-25"><b>Singapore</b><br>
+                  <i>Twenty-One Pte Ltd</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+65 8777 5721<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; 36 Armenian Street,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; #04-10,Singapore<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 179934
+                </p>
+              </div>
+
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-n10"><b>Hong Kong</b><br>
+                  <i>Twenty-One Limited</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+852 6776 1721<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; 3Unit 504B<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 5/F Join-In Hang Sing Centre,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Nos 71-75 Container Port Road<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Kwai Chung Hong Kong<br>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-25"><b>Experience Centre</b><br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp;1A Eunos Crescent,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;#01-2477,Singapore<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;401001<br>
+                </p>
+              </div>
+
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-n10"><b>Philippines</b><br>
+                  <i>21 Corp</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+63 921 965 2872<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; B3 L9 San Antonio City,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Of San Pedro Laguna<br>
+                </p>
+              </div>
+
+            </div>
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-0"><b>Malaysia</b><br>
+                  <i>21 Lifestyle Sdn Bhd</i><br>
+                  <i class="fas fa-phone  fa-xs"></i>&nbsp;+60 16 6434495<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;29-3A-3, Maritime,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Persiaran Karpal Singh 2,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 11600 Georgetown,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Pulau Pinang,Malaysia<br>
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- <hr class="my-5" style="color:white;"> -->
+        <div style="background-color:white;height:1px;" class="container m-b-10" data-aos="fade-up"
+          data-aos-delay="150"></div>
+
+        <div class="row d-flex justify-content-around container text-greyFooter m-t-30 m-l-2" data-aos="fade-up"
+          data-aos-delay="150">
+
+          <div class="firstColCSS" style="margin-right:auto;">
+            <p class="font-weight-light fs-13 mb-0">© 2021 Twenty-One.</p>
+          </div>
+          <a href="https://www.instagram.com/iotasiaonline/"><i class="fab fa-instagram SocialInsCSS rounded-circle fa-sm"></i> </a> &nbsp; &nbsp;
+          <a href="https://www.facebook.com/twentyonepl" ><i class="fab fa-facebook-f SocialFBCSS rounded-circle fa-sm"></i></a>
+          <div class="thirdColCSS font-weight-light font-small mb-0 l-h-9 p-0"
+            style="margin-left:auto;line-height:1.9;padding:0;font-size:14px;">
+            <a href="#" class="textlinkwhite fs-13">Privacy Policy</a>
+          </div>
+
+        </div>
+
+      </div>
+    </footer><!-- End Footer -->
+
+
+
+    <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+
+    <!-- Core -->
+    <!-- <script src="assets/vendor/jquery/dist/jquery.min.js"></script> -->
+    <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <!-- <script src=".assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="assets/vendor/headroom.js/dist/headroom.min.js"></script>
+
+    <!-- Vendor JS -->
+    <script src="assets/vendor/onscreen/dist/on-screen.umd.min.js"></script>
+    <script src="assets/vendor/nouislider/distribute/nouislider.min.js"></script>
+    <script src="assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/vendor/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+    <script src="assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/vendor/prismjs/prism.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Neumorphism JS -->
+    <script src="assets/js/neumorphism.js"></script>
+
+
+    <!-- backgroundBlue  particles JS -->
+    <script src="assets/js/background_Blue.js"></script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <!-- partial -->
+    <!-- <script src="assets/js/background_Blue.js"></script>  -->
+
+    <!--Domain Change-->
+    <script src="assets/js/DomainChange.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,402 @@
+/* Basics */
+html, body{
+  background: #000;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.content{
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* 
+h2,p{
+  text-align: center;
+} */
+
+a{
+  text-decoration: none;
+}
+
+
+/* Menu */
+.linkHOMEbtn{
+	color:rgb(0, 183, 255); 
+  font-weight:bold;
+
+
+}
+
+.linkHOMEbtn:hover{
+	color: #fff;
+	text-decoration:none;
+}
+
+.ms-logo {
+    position: relative;
+    z-index: 7;
+    height: 50px;
+}
+
+@media screen and (max-device-width: 500px)  {
+	.logoImage {
+    margin-top:5px !important;
+		height: 60px !important;
+		/* width: 310px !important; */
+    width: 60px !important;
+	}
+	.linkHOMEbtn{
+		font-size: 42px;
+	}
+
+	.topPad {
+		padding-top: 45px !important;
+	}
+
+
+  .abtUsImg img
+    {
+      margin-top:30px !important;
+      height:120px !important;
+      width:110px !important;
+      padding-left:10px !important;
+      padding-right:10px !important;
+    }
+
+    .brandsImg img
+    {
+      margin-top:30px !important;
+      height:120px !important;
+      width:110px !important;
+      padding-left:10px !important;
+      padding-right:10px !important;
+    }
+
+    .contactusImg img
+    {
+      margin-top:30px !important;
+      height:120px !important;
+      width:110px !important;
+      padding-left:10px !important;
+      padding-right:10px !important;
+    }
+
+}   
+
+/*Text animation*/
+
+.title11 {
+  font-family: "Helvetica Neue";
+	/* text-align: center; */
+	color: #FFF;
+	display: flex;
+	/* flex-direction: column; */
+	/* align-items: center; */
+	/* justify-content: center; */
+	/* height: 100vh; */
+  margin-left:270px;
+	/* letter-spacing: 1px; */
+}
+
+.title11 p {
+	/* background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif); */
+  /* background-image: url(https://media.giphy.com/media/3bc8pP1rVdfgN1uoMV/giphy.gif); */
+  /* background-image: url(https://media.giphy.com/media/trapcode-particular-looped-animation-1jkSrf7GjwFwE5MJ73/giphy.gif); */
+  background-image: url(https://media.giphy.com/media/xU5eJlXYuSC23SmrYL/giphy.gif);
+  
+	/* background-size: cover; */
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	/* text-transform: uppercase; */
+	/* font-size: 120px; */
+	/* line-height: .75; */
+	/* margin: 10px 0; */
+}
+
+
+.title2 {
+  font-family: "Helvetica Neue";
+	color: #FFF;
+	display: flex;
+  margin-left:160px;
+  margin-top: -60px;
+}
+
+.title2 p {
+  background-image: url(https://media.giphy.com/media/xU5eJlXYuSC23SmrYL/giphy.gif);
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	/* margin: 10px 0; */
+}
+
+
+.title3 {
+	font-family: "Helvetica Neue";
+	color: #FFF;
+	display: flex;
+  margin-left:700px;
+  margin-top: -70px;
+}
+
+.title3 p {
+  background-image: url(https://media.giphy.com/media/xU5eJlXYuSC23SmrYL/giphy.gif);
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	/* margin: 10px 0; */
+}
+
+
+
+.title4 {
+	font-family: "Helvetica Neue";
+	color: #FFF;
+	display: flex;
+  margin-left:300px;
+  margin-top: -70px;
+  /* margin-bottom:-100px; */
+}
+
+.title4 p {
+  background-image: url(https://media.giphy.com/media/xU5eJlXYuSC23SmrYL/giphy.gif);
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	/* margin: 10px 0; */
+}
+
+
+
+
+/* styling my button */
+/* .white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+} */
+
+/**Footer**/
+.wrapper {
+  min-height: 0%;
+  /* min-height: 100%; */
+  /* margin-bottom: -50px; */
+  /* margin-bottom: -700px; */
+
+}
+
+/* .push {
+  height: 50px;
+} */
+
+
+footer {
+  width:100%;
+  height:50px;
+  /* padding-left: 30px; */
+  bottom: 0;
+  float:left;
+  margin-bottom:-150px; 
+}
+
+@media screen and (max-device-width: 500px)  {
+	footer {
+  height:150px;
+}
+
+	.wrapper {
+  min-height: 100%;
+  margin-bottom: -150px;
+
+}
+
+.push {
+  height: 150px;
+}
+}  
+
+.copyright{ 
+  font-weight: 500;
+  font-size: 0.7em; 
+  text-align:left;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:88%;
+  float:left;
+}
+
+
+.copy{ 
+  font-size: 0.7rem; 
+  color:white;
+}
+@media screen and (max-device-width: 500px)  {
+	.copy{ 
+	  font-size: 1.5rem; 
+    color:white;
+	}
+  
+	
+	
+}  
+
+.facebook{
+  background-color: #030C18;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.facebook:hover{
+  /* background-color: #00A0E3; */
+  cursor:pointer;
+}
+.fa-facebook {
+  margin-top: 0px;
+  margin-left: 0px;
+  color: #fff !important;
+  font-size: 30px;
+}
+.instagram {
+  float:right;
+  background-color: #030C18;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.instagram:hover{
+  /* background-color: #00A0E3;*/
+  cursor:pointer;
+}
+.fa-instagram {
+  margin-top: 0px;
+  margin-left: 0px;
+  color: #fff !important;
+  font-size: 30px;
+}
+.fa:hover{
+  text-decoration: none;
+}
+
+/*size:bottom fb and insta in mobile view*/
+@media screen and (max-device-width: 500px)  {
+	.fa-facebook {
+		font-size: 50px;
+	}
+
+	.fa-instagram {
+	  font-size: 50px;
+	}
+	
+	.btn-icon-only-1 {
+		width: 4rem !important;
+		height: 4rem !important;
+	}
+	
+	.facebook {
+		width: 80px;
+		height: 80px;
+	}
+	
+	.instagram {
+		width: 80px;
+		height: 80px;
+	}
+	
+	.heightNew{
+		height: 100px;
+	}
+}  
+
+/*   
+.scroll {
+    width: 100%;
+    height: 330px;
+    margin-top:200px;
+    padding:0;
+    position: relative;
+    overflow:hidden;
+
+  } */
+
+@media screen and (max-device-width: 700px)  {
+	/* .scroll {
+    margin-top:400px;
+  } */
+}   
+@media screen and (max-device-width: 500px)  {
+	/* .scroll {
+    margin-top:600px;
+  } */
+}   
+@media screen and (max-device-width: 400px)  {
+	/* .scroll {
+    margin-top:700px;
+  } */
+} 
+@media screen and (max-device-width: 375px)  {
+	/* .scroll {
+    margin-top:900px;
+  } */
+  
+}   
+  @media screen and (min-width: 2300px)  {
+	/* .scroll {
+    width: 100%;
+    height: 330px;
+    margin-top:400px;
+    padding:0;
+    position: relative;
+    overflow:hidden;
+  }	 */
+}   	
+  /* .scroll2 {
+    width: 1400px;
+    height: 280px;
+  }
+ */
+
+
+
+  
+#myVideo {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+.content {
+  position: relative;
+  /* height: 100%; */
+  height:auto;
+  width: 100%;
+  bottom: 0;
+  color: #f1f1f1;
+  /* width: 100%; */
+  padding: 20px;
+}
+
+

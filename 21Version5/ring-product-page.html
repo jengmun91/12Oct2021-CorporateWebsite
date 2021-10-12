@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta charset="utf-8"> -->
+  <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>21 MainPage</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/apple-touch-icon.svg" rel="icon">
+  <link href="assets/img/favicon.svg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Fontawesome -->
+  <link type="text/css" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> -->
+
+  <!--Add neumorphism-->
+  <link type="text/css" href="assets/css/neumorphism.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/styleTabbar.css">
+  <!-- Template Main CSS File -->
+  <!-- <link href="assets/css/style.css" rel="stylesheet">  -->
+
+  
+  <!--only Column CSS used newFlicCSS.css-->
+  <link rel="stylesheet" href="./assets/css/newFlicCSS.css">
+
+
+
+
+
+
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="@themesberg">
+  <meta name="twitter:title" content="Neumorphism UI by Themesberg">
+  <meta name="twitter:description"
+    content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages.">
+  <meta name="twitter:creator" content="@themesberg">
+  <meta name="twitter:image"
+    content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg">
+
+  <!-- Open Graph data -->
+  <meta property="fb:app_id" content="214738555737136">
+  <meta property="og:title" content="Neumorphism UI by Themesberg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://demo.themesberg.com/neumorphism-ui/" />
+  <meta property="og:image"
+    content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg" />
+  <meta property="og:description"
+    content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages." />
+  <meta property="og:site_name" content="Themesberg" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--Add a global variable of website name url then just pass all url link change to relative url-->
+
+</head>
+
+<body style="background-color:white;">
+
+  <header class="container-fluid headerCSS">
+    <div id="mySidenav" class="sidenav">
+      <div class="d-flex LogoRowCSS">
+        <div class="menuBarClose" href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i
+            class="fas fa-bars fa-lg"></i> <i class="fas fa-chevron-right fa-lg"></i></div>
+        <div class="margin-right:auto; logoMenuCSS"><img src="./assets/img/21-Logo-Horizontal_3.png"></a></div>
+        <div class="horozontalLineCSS"></div>
+        <div class="text-black m-t-21 p-l-7">
+          <p>twenty-one</p>
+        </div>
+
+      </div>
+      <div style="text-align:end;">
+        <a href="#">HOME <img src="./assets/img/home_icon.png" class="homeIconCSS m-l-20 m-r-50 m-t-n10"> </a>
+        <a href="#">OVERVIEW <img src="./assets/img/overview_icon.png" class="overViewIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <a href="#">MISSION <img src="./assets/img/mission_icon.png" class="missionIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <a href="#">VISION <img src="./assets/img/vision_icon.png" class="visionIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <button class="dropdown-btn">PRODUCT & SOLUTIONS <img src="./assets/img/ProductandSolution_icon.png"
+            class="m-l-9 m-r-n17 m-t-n-5 ProdandSolIconCSS">
+          <i class="fa fa-caret-down p-t-5 m-l-0 m-r-15 "></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="./lifx-product-page.html" style="padding-right:60px;">LIFX</a>
+          <a href="./ring-product-page.html" style="padding-right:60px;">RING</a>
+          <a href="./flic-product-page.html" style="padding-right:60px;">FLIC</a>
+        </div>
+
+        <a href="./contact-us.html">CONTACT US<img src="./assets/img/contactus_icon.png"
+            class="contactusIconCSS m-l-29 m-r-50 m-t-n5 "></a>
+
+      </div>
+
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+
+
+    <span onclick="openNav()"> <i class="fas fa-bars fa-lg p-t-40 p-l-40 p-r-40 float-r text-grey"></i></span>
+
+
+
+
+  </header>
+
+
+  <!-- ======= Hero Section ======= -->
+  <!-- <section id="heroRing">
+    <video autoplay muted loop id="myVideo2">
+      <source src="./assets/video/bg1.mp4" type="video/mp4">
+    </video>
+
+    <div class="textRingPage col-lg-6 col-md-6 m-t-210 m-l-50">
+      <div class="ringLogo text-center animated bounceInDown m-l-120"><img src="./assets/img/ring/ringlogoWhite.png">
+      </div>
+      <div class="wholeRow m-l-30 w-100">
+        <div class="firstRowCSS animated bounceInLeft m-t-8 "><img
+            src="./assets/img/ring/doorbell/ring-ringvideotext.png" style="height:70px"></div>
+        <div class="thirdRowCSS intro-heading animated bounceInRight m-t-3 text-right"> <img
+            src="./assets/img/ring/doorbell/ring-doorbelltext.png" style="height:25px;"></div>
+        <div class="forthRowCSS intro-paragraph animated bounceInRight"> <img
+            src="./assets/img/lifx/lifx_Hori-Line_white.png"></div>
+        <div class="forthRowCSS intro-paragraph animated bounceInUp m-t-0 m-b-0 text-right"> <img
+            src="./assets/img/ring/doorbell/ring-alotfhappentext.png"></div>
+
+      </div>
+    </div>
+
+  </section> -->
+  <!-- End Hero -->
+
+
+
+  <main id="main">
+
+<!--Siider-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators" >
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="background-color:white;border-color: white;"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" style="background-color:white; border-color: white; "></li>
+    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+  </ol>
+  <div class="carousel-inner bg-danger" >
+    <div class="carousel-item active sliderFirstImg">
+
+      <div class="textRingPage col-lg-6 col-md-6 m-l-50 wrapper">
+        
+        <div class="wholeRow m-l-50 w-100" style="margin-top:20vh;">
+          <div class="ringLogo text-center animated bounceInDown m-l-0 " ><img src="./assets/img/ring/ringlogoWhite.png">
+          </div>
+          <div class="firstRowCSS animated bounceInLeft m-t-8 text-right "><img
+              src="./assets/img/ring/doorbell/ring-ringvideotext.png" style="height:60px"></div>
+          <div class="thirdRowCSS intro-heading animated bounceInRight m-t-3 text-right"> <img
+              src="./assets/img/ring/doorbell/ring-doorbelltext.png" style="height:18px;"></div>
+          <div class="forthRowCSS intro-paragraph animated bounceInRight"> <img
+              src="./assets/img/lifx/lifx_Hori-Line_white.png"></div>
+          <div class="forthRowCSS intro-paragraph animated bounceInUp m-t-0 m-b-0 text-right "> <img
+              src="./assets/img/ring/doorbell/ring-alotfhappentext.png"  style="height:14px; "></div>
+  
+        </div>
+      </div>
+      <img class="d-block w-100" src="assets/img/ring/doorbell/ring_video_doorbell_pmp_hero_wired_desktop_1600x600_2x.jpg" alt="First slide" style="margin-top:-450px;height: 550px; width: 100% !important;">
+    </div>
+
+
+    <div class="carousel-item sliderSecondImg">
+
+      <div class="textRingPage col-lg-6 col-md-6 m-l-50">
+        
+        <div class="wholeRow m-l-50 w-100" style="margin-top:20vh;">
+          <div class="ringLogo text-center animated bounceInDown m-l-0" ><img src="./assets/img/ring/ringlogoWhite.png">
+          </div>
+          <div class="firstRowCSS animated bounceInLeft m-t-8 text-right TextSizeSmall-1"><img
+              src="./assets/img/ring/securiryCamera/ring-ringsecuritytext.png" style="height:50px"></div>
+          <div class="thirdRowCSS intro-heading animated bounceInRight m-t-3 text-right TextSizeSmall-2"> <img
+              src="./assets/img/ring/securiryCamera/ring-ringcameratext.png" style="height:18px;"></div>
+          <div class="forthRowCSS intro-paragraph animated bounceInRight TextSizeSmall-3"> <img
+              src="./assets/img/lifx/lifx_Hori-Line_white.png"></div>
+          <div class="forthRowCSS intro-paragraph animated bounceInUp m-t-0 m-b-0 text-right TextSizeSmall-4"> <img
+              src="./assets/img/ring/securiryCamera/ring-covereverytext.png"  style="height:14px; "></div>
+  
+        </div>
+      </div>
+      
+      <img class="d-block w-100" src="assets/img/ring/securiryCamera/cams_hero_desktop_1600x600_2x.jpg" alt="Second slide" style="margin-top:-440px;height:550px;width:100% !important;">
+    </div>
+
+<!-- 
+    <div class="carousel-item sliderSecondImg">
+      <div class="textRingPage col-lg-6 col-md-6m-l-50">
+      
+        <div class="wholeRow m-l-50 w-100">
+          <div class="ringLogo text-center animated bounceInDown m-l-0" ><img src="./assets/img/ring/ringlogoWhite.png">
+          </div>
+          <div class="firstRowCSS animated bounceInLeft m-t-8 "><img
+              src="./assets/img/ring/securiryCamera/ring-ringsecuritytext.png" style="height:60px"></div>
+          <div class="thirdRowCSS intro-heading animated bounceInRight m-t-3 text-right"> <img
+              src="./assets/img/ring/securiryCamera/ring-ringcameratext.png" style="height:18px;"></div>
+          <div class="forthRowCSS intro-paragraph animated bounceInRight"> <img
+              src="./assets/img/lifx/lifx_Hori-Line_white.png" ></div>
+          <div class="forthRowCSS intro-paragraph animated bounceInUp m-t-0 m-b-0 text-right"> <img
+              src="./assets/img/ring/securiryCamera/ring-covereverytext.png"  style="height:14px; "></div>
+  
+        </div>
+      </div>
+      <img class="d-block w-100" src="assets/img/ring/securiryCamera/cams_hero_desktop_1600x600_2x.jpg" alt="Second slide" style="margin-top:-300px;height:500px;">
+    </div> -->
+
+
+
+    <!-- <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div> -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="fas fa-chevron-left fa-2x" aria-hidden="true" style="color:white;"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="fas fa-chevron-right fa-2x" aria-hidden="true" style="color:white;"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+    <!--Tab Dividar for Ring Products-->
+<div class="tabs m-t-30">
+  <input type="radio" id="tab2" name="tab-control" checked>
+  <input type="radio" id="tab3" name="tab-control">
+  <ul>
+    <li title="Delivery Contents"><label for="tab2" role="button"><img src="./assets/img/ring/doorbell/icon_doorbell.png"
+          style=" width:14px;height:20px;">
+        <br>
+        <span>Video Doorbells</span></label>
+    </li>
+
+    <li title="Shipping">
+      <label for="tab3" role="button"><img src="./assets/img/ring/securiryCamera/icon_securityCam.png"
+          style=" width:20px;height:20px;">
+        <br>
+        <span>Security Cameras</span></label>
+    </li>
+
+
+  </ul>
+
+  <div class="slider">
+    <div class="indicator"></div>
+  </div>
+
+  <div class="content">
+
+                <!---Doorbell-->
+                <section class="DoorbellSection" style="height:auto;">
+                  <h2>Video Doorbells</h2>
+      
+                  <div class="container FisrtRowDoorBellIMG m-b-0">
+      
+                    <div class="row firstRowLightBulb text-center" data-aos="fade-up" data-aos-delay="150">
+                      <div class="col-md-2 col-sm-4">
+                        <img
+                          src="./assets/img/ring/doorbell/ring_video_doorbell_wired_1000x1000_35254599-c627-4118-a9db-0dac4664f8db.jpg"
+                          style="height:160px;width:100px;">
+                        <h6 class="fw-w300 fs-10"><b>Video Doorbell Wired</b></h6>
+                      </div>
+      
+                      <div class="col-md-2 col-sm-4 m-r-auto m-l-auto">
+                        <img
+                          src="./assets/img/ring/doorbell/vd_rvdg2_satinnickel_1000x1000_39ddffc3-8030-4f8c-a1eb-c35cf3c5f452_2.jpg"
+                          style="height:160px;width:100px;">
+                        <h6 class="fw-w300 fs-10"><b>Video Doorbell (2020 Release)</b></h6>
+                      </div>
+      
+                      <div class="col-md-2 col-sm-4 m-r-auto m-l-auto">
+                        <img
+                          src="./assets/img/ring/doorbell/8VRSLZ-0EN0_543f6255-0c86-4e49-90dd-6fc1a2679e44_videoDoorBell3.jpg"
+                          style="height:160px;width:100px;">
+                        <h6 class="fw-w300 fs-10"><b>Video Doorbell 3</b></h6>
+                      </div>
+      
+      
+                      <div class="col-md-2 col-sm-4  m-r-auto m-l-auto">
+                        <img
+                          src="./assets/img/ring/doorbell/ring_video_doorbell_4_1500x1500_622d55f5-c761-4b72-9608-8b199ae1ff24_videoDoobell4.jpg"
+                          style="height:160px;width:100px;">
+                        <h6 class="fw-w300 fs-10"><b>Video Doorbell 4</b></h6>
+                      </div>
+      
+                      <div class="col-md-2 col-sm-4  m-r-auto m-l-auto">
+                        <img src="./assets/img/ring/doorbell/B086Q54K53_doorbell_pro2.jpg" style="height:160px;width:100px;">
+                        <h6 class="fw-w300 fs-10"><b>Video Doorbell Pro2</b></h6>
+                      </div>
+      
+                    </div>
+      
+                  </div>
+      
+      
+                  <div class="container-fluid m-t-0 ScecondRowInfoCSS" data-aos="fade-up">
+                                
+                    <!--Test using FLic 2 col-->
+
+                        <!--Upgrade &amp; Simplify Your Life-->
+                        <div class="container image-copy-content vertical-site-padding">
+                          <div class="row vertical-site-padding-half">
+                            <div class="col-md-5 image fliclazy" data-aos="fade-right"
+                            data-aos-delay="100"
+                              style="background-image: url('assets/img/ring/doorbell/ring_video_doorbell_pro2_faceplate_desktop_tablet_715x715_2x.jpg');">
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-6 copy" data-aos="fade-left" data-aos-delay="100">
+                              <h3>Battery Video Doorbells</h3>
+                              <p>Smart security for any home. Our battery-powered
+                                doorbells give you the most flexibility and install in just a few minutes on any kind of surface. 
+                                Batteries easily recharge with the included cable so you won’t miss a thing</p>
+                                <p class="font text-black"><img src="./assets/img/ring/doorbell/icon_doorbell2.png" style="height:16px;width:10px;"> Video Doorbell 3</p>
+                                <p class="font text-black m-t-n20"><img src="./assets/img/ring/doorbell/icon_doorbell2.png" style="height:16px;width:10px;"> Video Doorbell 4</p>
+                                <p class="font text-black m-t-n20"> <img src="./assets/img/ring/doorbell/icon_doorbell2.png" style="height:16px;width:10px;">  Video Doorbell (2020 Release)</p>
+                            </div>
+                          </div>
+                          <div class="row vertical-site-padding-half">
+                            <div class="col-md-5 order-md-last image fliclazy" data-aos="fade-left"
+                            data-aos-delay="100" style="background-image: url('assets/img/ring/doorbell/ring_video_doorbell_4_faceplate_mobile_336x336_2x.jpg');">
+                            </div>
+                            <div class="col-md-6 copy vertical-site-padding-half" data-aos="fade-right"
+                            data-aos-delay="100">
+                              <div class="" >
+                                <h3>Wired Video Doorbells</h3>
+                                <p class="">Smart security for any home. Our battery-powered
+                                  doorbells give you the most flexibility and install in just a few minutes on any kind of surface. 
+                                  Batteries easily recharge with the included cable so you won’t miss a thing.</p>
+                                  <p class="font text-black"><img src="./assets/img/ring/doorbell/icon_doorbell2.png" style="height:16px;width:10px;"> Video Doorbell 3</p>
+                                  <p class="font text-black m-t-n20"><img src="./assets/img/ring/doorbell/icon_doorbell2.png" style="height:16px;width:10px;"> Video Doorbell 4</p>
+                                  <p class="font text-black m-t-n20"> <img src="./assets/img/ring/doorbell/icon_doorbell2.png" style="height:16px;width:10px;">  Video Doorbell (2020 Release)</p>
+                            </div>
+                            <div class="col-sm-1"></div>
+                          </div>
+                          </div>
+
+                       
+                        </div>
+
+                    <!--end Test usinh Flic 2 col-->
+
+      
+                  </div>
+
+
+
+
+                  
+      
+                  <!--Text whte with blue bg-->
+       
+                  <div class="container-fluid text-white text-center p-t-30 p-b-20 m-b-30" style="background-color:#b7ced9;" >
+
+                    <!-- <div class="row">
+                      <div class="col-12 text-center"  data-aos="fade-up" data-aos-delay="150">
+                        <h2 class=>Upgrade &amp; Simplify Your Life</h2>
+                        <p class="vertical-site-padding-half">Create powerful combinations or simple life hack shortcuts.</p>
+                      </div>
+                    </div> -->
+                        <h4 data-aos="fade-up" data-aos-delay="100" class="text-white"><b>Answer the door from anywhere.</b></h4>
+                        <p class="lh-1-3" data-aos="fade-up" data-aos-delay="100">Ring is on a mission to make neighborhoods safe — starting at the front door. With <br>
+                          our world-renowned Video Doorbells, convenience and peace of mind are always <br>
+                          at your fingertips whether you’re home or away.</p>
+      
+                  </div>
+      
+      
+      
+      
+      
+                  <!--Video Ring Video doorbell-->
+                  <!--https://douglasgreen.com/demo/responsive-video-play-button/-->
+      
+               <div class="container-fluid text-center VideoBell">
+      
+                      <video id='video' class="Videoeee" controls="" width="70%" height="40%" muted name="media"><source src="./assets/img/ring/doorbell/LONG_20_07_31_DOOR_BELL_LANDING_PAGE_VIDEO_CUT_V22.mp4" type="video/mp4"></video>
+                      
+                      <div class="playButton" id='playVid'><img src="./assets/img/ring/icon_play-btn.png"></div> 
+                      <!-- <div class="videoImgCSS videoImgCSSMobile" id="videoImg"> <img src="./assets/img/ring/doorbell/image-2021-02-04-09-12-25-935.jpeg" alt="Ring Doorbell Video" width="69%" height="38%" style="margin-top:-42%;position:relative;z-index:100;opacity:0.5"/></div> -->
+                    
+                    
+                      <!-- <video controls="" width="60%" height="35%" autoplay="" muted name="media"><source src="file:///Users/jengmunnew/Desktop/KELLIE_WORK_2021/CorporateWebsite/VERSION2/code/21Version5/assets/img/ring/doorbell/LONG_20_07_31_DOOR_BELL_LANDING_PAGE_VIDEO_CUT_V22.mp4" type="video/mp4"></video> -->
+      
+                      <!-- <div class="videoImg"> <img src="./assets/img/ring/doorbell/image-2021-02-04-09-12-25-935.jpeg" alt="Ring Doorbell Video" /></div>
+                      <a href="./assets/img/ring/doorbell/LONG_20_07_31_DOOR_BELL_LANDING_PAGE_VIDEO_CUT_V22.mp4" class="video11">
+                            <div class="playButton"><img src="./assets/img/icon_play-btn.png" ></div>
+                            <div class="videoImg"> <img src="./assets/img/ring/doorbell/image-2021-02-04-09-12-25-935.jpeg" alt="Ring Doorbell Video" /></div>
+                      </a> -->
+               
+                  </div>
+      
+            
+                  
+      
+                </section>
+
+
+
+
+            <!---Security Camera-->
+            <section class="SecurityCamSection"  style="height:auto;">
+              <h2>Security Cameras</h2>
+  
+              <div class="container FisrtRowSecurityCamIMGF ">
+  
+                <div class="row firstRowLightBulb text-center" data-aos="fade-up" data-aos-delay="150">
+                  <div class="col-md-2 col-sm-4">
+                    <img
+                      src="./assets/img/ring/securiryCamera/IndoorCam-White.jpg"
+                      style="height:90px;width:100px;">
+                    <h6 class="fw-w300 fs-10"><b>Indoor Cam Indoor</b></h6>
+                  </div>
+  
+  
+                  <div class="col-md-2 col-sm-4 m-r-auto m-l-auto">
+                    <img
+                      src="./assets/img/ring/securiryCamera/StickUpCamBattery-White.jpg"
+                      style="height:90px;width:60px;">
+                    <h6 class="fw-w300 fs-10"><b>Stick Up Cam Battery</b><br>Indoor or Outdoor</h6>
+                  </div>
+  
+  
+               
+                  <div class="col-md-2 col-sm-4 m-r-auto m-l-auto">
+                    <img
+                      src="./assets/img/ring/securiryCamera/SUCS_WHT_1000x1000_1_43efdf28-16e8-47ad-82d1-a25c903eaec8.jpg"
+                      style="height:90px;width:130px;">
+                    <h6 class="fw-w300 fs-10"><b>Stick Up Cam Solar</b><br>Indoor or Outdoor</h6>
+                  </div>
+  
+              
+                  <div class="col-md-2 col-sm-4 m-r-auto m-l-auto">
+                    <img
+                      src="./assets/img/ring/securiryCamera/8SB1S7-WEN0.jpg"
+                      style="height:90px;width:80px;">
+                    <h6 class="fw-w300 fs-10"><b>Spotlight Cam Battery</b><br>Outdoor with Lights</h6>
+                  </div>
+  
+                  <div class="col-md-2 col-sm-4 m-r-auto m-l-auto">
+                    <img src="./assets/img/ring/securiryCamera/flc_pro_white_hero_1500x1500_7c34ab7f-291b-458b-bff9-eda79907c99a.jpg" style="height:90px;width:100px;">
+                    <h6 class="fw-w300 fs-10"><b>Floodlight Cam Wired Plus</b><br>Outdoor with Lights</h6>
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+
+
+
+                  <div class="container-fluid m-t-0 ScecondRowInfoCSS" data-aos="fade-up">
+                                
+                    <!--Test using FLic 2 col-->
+
+                        <!--Upgrade &amp; Simplify Your Life-->
+                        <div class="container image-copy-content vertical-site-padding">
+                          <div class="row vertical-site-padding-half">
+                            <div class="col-md-5 image fliclazy" data-aos="fade-right"
+                            data-aos-delay="100"
+                              style="background-image: url('assets/img/ring/securiryCamera/5050_categories_indoor_mobile_336x336_2x.jpg');">
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-6 copy" data-aos="fade-left" data-aos-delay="100">
+                              <h3 >Indoor Security Cameras</h3>
+                              <p>Bring smart security inside and see what’s happening at home. Compact and simple to 
+                                install, you’ll have peace of mind in no time with these indoor security cameras..</p>
+                              <p class="font text-black"><img src="./assets/img/ring/doorbell/icon_doorbell.png" style="height:16px;width:10px;"> Indoor Cam</p>
+                              <p class="font text-black m-t-n20"> <img src="./assets/img/ring/doorbell/icon_doorbell.png" style="height:16px;width:10px;">  Sticky Cam</p>
+                            </div>
+                          </div>
+                          <div class="row vertical-site-padding-half">
+                            <div class="col-md-5 order-md-last image fliclazy" data-aos="fade-left"
+                            data-aos-delay="100" style="background-image: url('assets/img/ring/securiryCamera/5050_categories_indoor_outdoor_desktop_tablet_715x715_2x.jpg');">
+                            </div>
+                            <div class="col-md-6 copy vertical-site-padding-half" data-aos="fade-right"
+                            data-aos-delay="100">
+                              <div class="" >
+                                <h3>Outdoor Security Cameras</h3>
+                                <p class="">Bring smart security inside and see what’s happening at home. Compact and simple to 
+                                  install, you’ll have peace of mind in no time with these indoor security cameras..</p>
+                                <p class="font text-black m-t-n20"> <img src="./assets/img/ring/doorbell/icon_doorbell.png" style="height:16px;width:10px;">  Sticky Cam</p>
+                            </div>
+                            <div class="col-sm-1"></div>
+                          </div>
+                          </div>
+
+                          <div class="row vertical-site-padding-half">
+                            <div class="col-md-5 image fliclazy" data-aos="fade-right"
+                            data-aos-delay="100" style="background-image: url('assets/img/ring/securiryCamera/5050_categories_outdoor_desktop_tablet_715x715__2x.jpg');">
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-6 copy" data-aos="fade-left"
+                            data-aos-delay="100">
+                            <h3>Outdoor Security Cameras With Lights</h3>
+                        <p >Surround your home with smart outdoor security cameras and stop crime before it happens. Complete with built-in lights, sirens, and night 
+                        vision, you’ll be connected and feel protected around the clock.</p>
+                      <p class="font text-black"><img src="./assets/img/ring/securiryCamera/icon_spotlightCam.png" style="height:16px;width:10px;"> Spotlight Cam
+                      </p>
+                      <p class="font text-black m-t-n20"> <img src="./assets/img/ring/securiryCamera/icon_floodlightCam.png" style="height:16px;width:10px;">  Floodlight Cam</p>
+                            </div>
+                          </div>
+                        </div>
+
+                    <!--end Test usinh Flic 2 col-->
+
+      
+                  </div>
+
+
+  
+              <!--Text whte with blue bg-->
+   
+              <div class="container-fluid text-white text-center p-t-30 p-b-30 m-b-30"  style="background-color:#b7ced9;" >
+                <h5 data-aos="fade-up" data-aos-delay="100" class="text-white"><b>See the power of Ring in action.</b></h5>
+                <p class="lh-1-3" data-aos="fade-up" data-aos-delay="100">What happens when Ring is on the lookout?<br>
+                  Check out real videos from real Ring neighbors to find out..</p>
+
+          </div>
+  
+  
+  
+  
+  
+            <!--Video Ring Video doorbell-->
+            <!--https://douglasgreen.com/demo/responsive-video-play-button/-->
+
+            <div class="container-fluid text-center VideoSecurity">
+
+              <video id='videoSecurityCam' class="Videoeee2" controls="" width="70%" height="40%" muted name="media"><source src="./assets/img/ring/securiryCamera/LONG_20_09_10_CAM_LANDING_PAGE_VIDEO_CUT_V05_3.mp4" type="video/mp4"></video>
+              
+              <div class="playButton" id='playVidSecurityCam'><img src="./assets/img/ring/icon_play-btn.png"></div> 
+              <!-- <div class="videoImgCSS videoImgCSSMobile" id="videoImg"> <img src="./assets/img/ring/doorbell/image-2021-02-04-09-12-25-935.jpeg" alt="Ring Doorbell Video" width="69%" height="38%" style="margin-top:-42%;position:relative;z-index:100;opacity:0.5"/></div> -->
+            
+            
+              <!-- <video controls="" width="60%" height="35%" autoplay="" muted name="media"><source src="file:///Users/jengmunnew/Desktop/KELLIE_WORK_2021/CorporateWebsite/VERSION2/code/21Version5/assets/img/ring/doorbell/LONG_20_07_31_DOOR_BELL_LANDING_PAGE_VIDEO_CUT_V22.mp4" type="video/mp4"></video> -->
+
+              <!-- <div class="videoImg"> <img src="./assets/img/ring/doorbell/image-2021-02-04-09-12-25-935.jpeg" alt="Ring Doorbell Video" /></div>
+              <a href="./assets/img/ring/doorbell/LONG_20_07_31_DOOR_BELL_LANDING_PAGE_VIDEO_CUT_V22.mp4" class="video11">
+                    <div class="playButton"><img src="./assets/img/icon_play-btn.png" ></div>
+                    <div class="videoImg"> <img src="./assets/img/ring/doorbell/image-2021-02-04-09-12-25-935.jpeg" alt="Ring Doorbell Video" /></div>
+              </a> -->
+       
+          </div>
+
+        
+              
+  
+            </section>
+
+      
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+    <!-- ======= Footer ======= -->
+    <footer class="d-flex pt-6 pb-5 pt-md-7 border-top border-light" data-aos="fade-up" data-aos-delay="150"
+      style="background-color:#020D2D;">
+      <div class="container m-t-n10">
+
+        <div class="row col-lg-12 text-greyFooter p-0" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-md-2 col-sm-4">
+            <h6 class="text-greyFooter">COMPANY</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <div class="lh-1-9 p-0 fs-14 m-b-50 m-l-15">
+              <a href="#" class="LinkTextCSS">Overview</a><br>
+              <a href="#" class="LinkTextCSS">Mission</a><br>
+              <a href="#" class="LinkTextCSS">Vision</a><br>
+              <a href="#" class="LinkTextCSS">Values</a>
+            </div>
+
+
+          </div>
+
+
+          <div class="col-md-3 col-sm-6">
+            <h6 class="text-greyFooter">PRODUCTS AND SOLUTIONS</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+            <div class="lh-1-9 p-0 fs-14 m-b-50 m-l-15">
+              <a href="#" class="LinkTextCSS">LIFX</a><br>
+              <a href="#" class="LinkTextCSS">Ring</a><br>
+              <a href="#" class="LinkTextCSS">flic</a>
+            </div>
+
+          </div>
+
+          <div class="col-md-2 col-sm-2 m-b-50" style="color:#1E9FD9;">
+            <h6 class="text-greyFooter">CONTACT</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <p class="fs-12 p-0 text-greyFooter m-l-15">info@twenty-one.com.sg<br>+65 8777 5721</p>
+
+
+            <a class="ContactBtnCSS m-l-15" href="./contact-us.html">CONTACT US</a>
+
+          </div>
+
+
+          <div class="col-md-5 col-sm-10 p-b-30 text-greyFooter">
+            <h6 class="text-greyFooter">LOCATIONS</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-25"><b>Singapore</b><br>
+                  <i>Twenty-One Pte Ltd</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+65 8777 5721<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; 36 Armenian Street,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; #04-10,Singapore<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 179934
+                </p>
+              </div>
+
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-n10"><b>Hong Kong</b><br>
+                  <i>Twenty-One Limited</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+852 6776 1721<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; 3Unit 504B<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 5/F Join-In Hang Sing Centre,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Nos 71-75 Container Port Road<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Kwai Chung Hong Kong<br>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-25"><b>Experience Centre</b><br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp;1A Eunos Crescent,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;#01-2477,Singapore<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;401001<br>
+                </p>
+              </div>
+
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-n10"><b>Philippines</b><br>
+                  <i>21 Corp</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+63 921 965 2872<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; B3 L9 San Antonio City,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Of San Pedro Laguna<br>
+                </p>
+              </div>
+
+            </div>
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-0"><b>Malaysia</b><br>
+                  <i>21 Lifestyle Sdn Bhd</i><br>
+                  <i class="fas fa-phone  fa-xs"></i>&nbsp;+60 16 6434495<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;29-3A-3, Maritime,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Persiaran Karpal Singh 2,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 11600 Georgetown,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Pulau Pinang,Malaysia<br>
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- <hr class="my-5" style="color:white;"> -->
+        <div style="background-color:white;height:1px;" class="container m-b-10" data-aos="fade-up"
+          data-aos-delay="150"></div>
+
+        <div class="row d-flex justify-content-around container text-greyFooter m-t-30 m-l-2" data-aos="fade-up"
+          data-aos-delay="150">
+
+          <div class="firstColCSS" style="margin-right:auto;">
+            <p class="font-weight-light fs-13 mb-0">© 2021 Twenty-One.</p>
+          </div>
+          <a href="https://www.instagram.com/iotasiaonline/"><i
+              class="fab fa-instagram SocialInsCSS rounded-circle fa-sm"></i> </a> &nbsp; &nbsp;
+          <a href="https://www.facebook.com/twentyonepl"><i
+              class="fab fa-facebook-f SocialFBCSS rounded-circle fa-sm"></i></a>
+          <div class="thirdColCSS font-weight-light font-small mb-0 l-h-9 p-0"
+            style="margin-left:auto;line-height:1.9;padding:0;font-size:14px;">
+            <a href="#" class="textlinkwhite fs-13">Privacy Policy</a>
+          </div>
+
+        </div>
+
+      </div>
+    </footer><!-- End Footer -->
+
+
+
+    <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+
+    <!-- Core -->
+    <!-- <script src="assets/vendor/jquery/dist/jquery.min.js"></script> -->
+    <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <!-- <script src=".assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="assets/vendor/headroom.js/dist/headroom.min.js"></script>
+
+    <!-- Vendor JS -->
+    <script src="assets/vendor/onscreen/dist/on-screen.umd.min.js"></script>
+    <script src="assets/vendor/nouislider/distribute/nouislider.min.js"></script>
+    <script src="assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/vendor/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+    <script src="assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/vendor/prismjs/prism.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Neumorphism JS -->
+    <script src="assets/js/neumorphism.js"></script>
+
+
+    <!-- backgroundBlue  particles JS -->
+    <script src="assets/js/background_Blue.js"></script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <!-- partial -->
+    <!-- <script src="assets/js/background_Blue.js"></script>  -->
+
+    <!--Domain Change-->
+    <script src="assets/js/DomainChange.js"></script>
+
+</body>
+
+</html>

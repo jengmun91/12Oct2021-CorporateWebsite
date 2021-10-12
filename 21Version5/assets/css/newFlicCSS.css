@@ -1,0 +1,3526 @@
+
+
+.no-x-padding
+{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.site-padding{
+
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.vertical-site-padding
+{
+	padding-top: 7vw;
+	padding-bottom: 7vw;
+}
+
+.vertical-site-padding-bottom
+{
+
+	padding-bottom: 7vw;
+}
+
+.vertical-site-padding-bottom-half
+{
+
+	padding-bottom: 3.5vw;
+}
+
+.vertical-site-margin-top
+{
+	margin-top: 7vw;
+}
+
+.vertical-site-margin-bottom
+{
+	margin-bottom: 7vw;
+}
+
+.vertical-site-padding-half
+{
+	padding-top: 3.5vw;
+	padding-bottom: 3.5vw;
+}
+
+.heading-padding-bottom
+{
+	padding-bottom: 3vw;
+}
+
+.site-padding-left
+{
+	padding-left: 10vw;
+}
+
+.site-padding-right
+{
+	padding-right: 10vw;
+}
+
+
+.site-padding-half
+{
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.text-highlight
+{
+	background: #ff0188;
+	color: #fff;
+	padding: 0.4vw 0.4vw 0.2vw 0.4vw;
+}
+
+.bg-contain
+{
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.bg-cover
+{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+h1
+{
+	font-weight: lighter;
+	letter-spacing: 0.05vw;
+	font-size: 4vw;
+	-webkit-font-smoothing: antialiased;
+}
+
+h2
+{
+	font-weight: lighter;
+	font-size: 3vw;
+	-webkit-font-smoothing: antialiased;
+}
+
+h3
+{
+	font-weight: lighter;
+	font-size: 2vw;
+	-webkit-font-smoothing: antialiased;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 1.5vw;
+	-webkit-font-smoothing: antialiased;
+}
+
+.round-button
+{
+	background-color: #FF0089;
+	color: #fff;
+	border-radius: 2em;
+	padding: 1.0em 2.8em 0.8em 3em;
+	line-height: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.85rem;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid #FF0089;
+}
+
+
+.round-button.inverted
+{
+	border: 2px solid #FF0089;
+	background-color: transparent;
+	color: #FF0089;
+	/*
+	padding: 1.0vw 3vw 0.8vw 3vw;*/
+}
+
+
+
+.round-button.inverted.black
+{
+	border-color: #222;
+	color: #333;
+}
+
+.round-button.inverted.black:hover
+{
+	background: #333;
+	color: #fff;
+}
+
+.round-button.big
+{
+	font-size: 1.3rem;
+}
+
+.round-button.semi-big
+{
+	font-size: 1rem;
+}
+
+.round-button.secondary
+{
+	background: #692cff;
+	border-color: #692cff;
+}
+
+
+
+.round-button.margin
+{
+	margin-right: 1vw;
+	margin-left: 1vw;
+}
+
+.round-button:hover
+{
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.8;
+}
+
+.vignette
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/pasp2.png);
+	background-size: cover;
+	height: 100%;
+}
+
+header
+{
+	font-weight: lighter;
+}
+
+.hero,
+.hero .video-wrap
+{
+	height: 49vw;
+}
+
+.hero .video-wrap
+{
+	width: 100vw;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.hero .video-wrap video
+{
+	width: 100vw;
+	width: 100%;
+	height: 56.3vw;
+	position: absolute;
+	top: -4vw;
+	z-index: 10;
+
+}
+
+.hero .overlay
+{
+	position: absolute;
+	color: #fff;
+	width: 100vw;
+	width: 100%;
+	height: 49vw;
+	background-color: #4d4b5a91;
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/pasp.png);
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	z-index: 20;
+
+}
+
+.hero .overlay h1
+{
+	margin: 0;
+	margin-bottom: 1vw;
+	margin-left: 0;
+	text-shadow: 0 0 4.5vw #00000078;
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	padding-bottom: 1vw;
+	font-size: 4.5vw;
+}
+
+.hero .overlay .hero-primary
+{
+	font-size: 75%;
+}
+
+.hero .overlay .subtitle
+{
+	font-size: 2vw;
+	margin-bottom: -1vw;
+}
+
+.hero .overlay p
+{
+	font-size: 1.4vw;
+	padding: 0.6vw 0;
+}
+
+.hero .overlay .inner
+{
+	background: none;
+	padding: 14vw 10vw 0 10vw;
+}
+
+.hero .hero-copy ul
+{
+	padding-left: 0;
+}
+
+.hero .overlay .inner a.buynow
+{
+	background-color: #FF0089;
+	box-shadow: none;
+	margin: 0;
+	font-size: 1.5vw;
+	border-radius: 10vw;
+	padding: 1.8vw 6vw 1.5vw 6vw;
+}
+
+header .top-bar
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.home header .top-bar
+{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+header .menu
+{
+	position: relative;
+	top: 0;
+	width: 100%;
+
+	font-weight: lighter;
+	font-size: 1.3vw;
+
+	overflow: hidden;
+}
+
+header .menu .menu-item
+{
+	display: inline-block;
+	color: #fff;
+	padding: 2vw 3vw;
+	text-decoration: none;
+	transition: background 0.2s;
+}
+
+header .menu .menu-item:hover
+{
+	background: #fff3;
+	cursor: pointer;
+}
+
+header .menu .menu-item.shop
+{
+	float: right;
+	background-color: #FF0089;
+	padding-left: 3.5vw;
+	padding-right: 3.5vw;
+	font-weight: bold;
+	line-height: 2.2vw;
+}
+
+header .menu .menu-item.currency-selector
+{
+	float: right;
+	width: 8.5em;
+}
+
+header .menu .menu-item.cart-menu-item
+{
+	line-height: 2.1vw;
+	float: right;
+	background-color: #CB006D;
+	color: #CB006D;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	width: 6.6vw;
+	font-weight: bold;
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/cart.png);
+	background-size: 2vw 2vw;
+	background-repeat: no-repeat;
+	background-position: 2.3vw 1.7vw;
+}
+
+.currency-selector-dropdown-outer
+{
+
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	left: 0;
+	transition: height 0.5s;
+	overflow: hidden;
+}
+.currency-selector-dropdown
+{
+
+
+	background: rgba(0, 0, 0, 0.8);
+
+}
+
+.currency-selector-dropdown ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.currency-selector-dropdown li
+{
+	padding: 1em;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+}
+
+.currency-selector-dropdown li:hover
+{
+	background: rgba(255, 255, 255, 0.1)
+}
+
+header .logo
+{
+	position: relative;
+	display: inline-block;
+	float:left;
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/flic-logo-wh.png);
+	width: 8vw;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 5vw auto;
+}
+
+header .menu .menu-item.shop,
+header .menu,
+header .logo,
+header .menu .menu-item
+{
+	height: 5.9vw;
+}
+
+.table thead th
+{
+	border-bottom: 0;
+}
+
+.site-content
+{
+	padding-top: 5.9vw;
+}
+
+
+.hero-wrap
+{
+	margin-top: -5.9vw;
+	padding: 0vw;
+	background-image: linear-gradient(0deg, #44444c,#5e5e61,#525256);
+}
+
+
+
+/* .flic2-product-feature
+{
+	border-top: 1px solid #ffffff36;
+	background: #222;
+	overflow: visible;
+	color: #eee;
+	text-align: center;
+	font-weight: lighter;
+	padding-bottom: 4vw;
+	background-image: radial-gradient(
+	  circle at top center,
+	  #444444,
+	  #191919
+	);
+} */
+
+
+
+
+
+.flic2-product-feature
+{
+	border-top: 1px solid #ffffff36;
+	background: #222;
+	overflow: visible;
+	color: #eee;
+	text-align: center;
+	font-weight: lighter;
+	padding-bottom: 4vw;
+	background-image: radial-gradient(
+	  circle at top center,
+	  #444444,
+	  #191919
+	);
+}
+
+
+.flic2-product-feature .titleNowWithHomekit
+{
+	width: 70vw;
+	margin: 2.0vw auto 0vw auto;
+	padding: 2vw;
+    font-size: 35px;
+    font-size: 6vw;
+
+}
+
+
+.flic2-product-feature .copy
+{
+	width: 70vw;
+	margin: 2.0vw auto 0vw auto;
+	border-top: 1.5px solid #ffffff57;
+	padding: 2vw;
+}
+
+.flic2-product-feature .round-button
+{
+	background-color: #E5E5E5;
+	color: #272727;
+}
+
+.flic2-product-feature .product-image
+{
+
+    background: url("../img/flic/h1f3.png");
+    width: 60vw;
+	height: 44vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center;
+	margin: 0 auto;
+	position: relative;
+	top: -vw;
+	z-index: 40;
+}
+
+.flic2-product-feature h2
+{
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+}
+
+
+.flic2-product-feature2 .titleButtonAtHomekit
+{
+	width: 70vw;
+
+}
+
+
+.flic2-product-feature2 .copy
+{
+	width: 50vw;
+}
+
+.flic2-product-feature a,
+.flic2-product-feature a:visited
+{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.flic2-product-feature .copy
+{
+	width: 38vw;
+	margin: 2.5vw auto 0vw auto;
+	border-top: 1.5px solid #ffffff57;
+	padding: 2.5vw;
+}
+
+.flic2-product-feature .round-button
+{
+	background-color: #E5E5E5;
+	color: #272727;
+}
+
+/* .flic2-product-feature .product-image
+{
+	background: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/hub4flicsproduct-1.png);
+	width: 48vw;
+	height: 32vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 0 auto;
+	position: relative;
+	top: -5vw;
+	z-index: 40;
+} */
+
+/* .flic2-product-feature h2
+{
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+} */
+
+
+.shopify-populate-image.loading
+{
+	background-image: url('../img/flic/loading.gif') !important;
+	background-position: center !important;
+	background-size: 30px 30px !important;
+	background-repeat: no-repeat !important;
+}
+
+.large-image-copy
+{
+	height: 43vw;
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0vw;
+}
+
+.large-image-copy.white
+{
+	color: #fff;
+}
+
+.large-image-copy-inner
+{
+	padding-top: 15vw;
+	width: 63vw;
+}
+
+.large-image-copy .logos
+{
+	margin-top: 3vw;
+	margin-left: -0.5vw;
+}
+
+.large-image-copy.smart-home .logos
+{
+	margin-left: -1vw;
+}
+
+.large-image-copy.smart-home .logos .logo
+{
+	margin-right: 1vw;
+}
+
+
+.large-image-copy.business .large-image-copy-inner
+{
+	padding-top: 11vw;
+}
+
+
+
+.large-image-copy .logos .logo
+{
+	display: inline-block;
+	padding: 0vw 1vw 0vw 1vw;
+	text-align: center;
+	font-size: 1.3vw;
+	min-width: 7vw;
+}
+
+.large-image-copy .logos .logo-image
+{
+	height: 5vw;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 4vw;
+	margin: 0 auto 1vw auto;
+
+}
+
+.large-image-copy .logos .logo-image.bg
+{
+	width: 5vw;
+	background-color: #ffffffb8;
+	border-radius: 0.5vw;
+	box-shadow: 0 0 1vw #0003;
+	background-size: 80% auto;
+
+}
+
+.large-image-copy .logos .logo.slack .logo-image
+{
+	background-image: url('../img/flic/logo-slack.png');
+	background-position: center top;
+
+
+}
+
+.large-image-copy .logos .logo.ifttt .logo-image
+{
+	background-image: url('../img/flic/logo-ifttt.png');
+	background-position: center 0.7vw;
+	background-size: 80% auto;
+}
+
+.large-image-copy .logos .logo.flow .logo-image
+{
+	background-image: url('../img/flic/logo-flow.png');
+	background-position: center top;
+
+}
+
+.large-image-copy .logos .logo.more .logo-image
+{
+	background-image: url('../img/flic/icon-more.png');
+}
+
+.large-image-copy .logos .logo.hue .logo-image
+{
+	background-image: url('../img/flic/logo-philips-hue.png');
+
+
+}
+
+.large-image-copy .logos .logo.lifx .logo-image
+{
+	background-image: url('../img/flic/logo-lifx.png');
+
+
+}
+
+.large-image-copy .logos .logo.ikea .logo-image
+{
+	background-image: url('../img/flic/logo-ikea.png');
+
+
+}
+
+.large-image-copy .logos .logo.sonos .logo-image
+{
+	background-image: url('../img/flic/logo-sonos.png');
+
+
+
+}
+
+.large-image-copy.smart-home .logo.homekit .logo-image
+{
+	background-image: url('../img/flic/homekit_icon_small.png');
+}
+
+.large-image-copy.smart-home .logo.more .logo-image
+{
+	background-image: url('../img/flic/icon-more-bl.png');
+}
+
+
+
+
+
+
+.large-image-copy.smart-home .vignette
+{
+
+	background: none;
+}
+
+.large-image-copy.smart-home
+{
+	height: 49vw;
+	background-size: cover;
+}
+
+.large-image-copy.smart-home .large-image-copy-inner
+{
+	padding-top: 7.65em;
+	padding-left: 25em;
+	width: auto;
+}
+
+
+
+
+
+.use-cases
+{
+	text-align: center;
+	/* margin-top: -7vw; */
+	margin-top: -10vw;
+	padding-bottom: 7vw;
+
+}
+
+.use-cases .use-case
+{
+	padding-top: 14vw;
+	background-repeat: no-repeat;
+	background-size: 10vw 10vw;
+	background-position: center 2vw;
+}
+
+.use-cases.real-buttons .use-case
+{
+	background-size: 52% auto;
+	background-position: center top;
+}
+
+
+.use-case-inner
+{
+	padding: 0 2vw;
+
+}
+
+.use-case-line
+{
+	width: 50%;
+	border-right: 1px solid #888;
+	height: 2.5vw;
+	margin-bottom: 2vw;
+}
+
+.use-cases .use-case.light
+{
+
+	background-image: url('../img/flic/flic-light.png');
+}
+
+.use-cases .use-case.music
+{
+	
+	background-image: url('../img/flic/flic-playpause.png');
+}
+
+.use-cases .use-case.routines
+{
+	
+	background-image: url('../img/flic/flic-alarm.png');
+}
+
+/* .use-cases .use-case.sticky
+{
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/feature-sticky.svg);
+} */
+
+/* .use-cases .use-case.metal-clip
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/feature-clip.svg);
+} */
+/* 
+.use-cases .use-case.sticker
+{
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2019/11/feature-sticker.svg);
+} */
+
+/* .use-cases .use-case.battery
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/feature-battery.svg);
+}
+ */
+
+
+.testimonials
+{
+	background-color: #f3f3f3;
+	text-align: center;
+	color: #272727;
+
+}
+
+.testimonials .testimonial
+{
+	width: 33.33%;
+	float: left;
+	background-position: center top;
+	background-repeat: no-repeat;
+
+	margin: 5vw 0;
+}
+
+.testimonials .testimonial.cnet
+{
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/logo-cnet.png);
+	background-size: 5vw auto;
+}
+
+.testimonials .testimonial.trusted
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/logo-trusted-inv.png);
+	background-size: 10vw auto;
+}
+
+.testimonials .testimonial.wired
+{
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2019/11/logo-wired.png);
+	background-size: 12vw auto;
+	background-position: center 1vw;
+	padding-top: 8vw;
+}
+
+.testimonials
+{
+	margin: 0;
+	padding: 0;
+}
+
+.testimonials .testimonial
+{
+	padding: 2em 2em 0 2em;
+	float: none;
+	width: auto;
+	font-size: 90%;
+	margin: 2em 0 3em 0;
+	display: block;
+	color: #222;
+}
+
+.testimonials .testimonial:hover
+{
+	text-decoration: none;
+}
+
+.testimonials .testimonial .testimonial-image
+{
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 5em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.testimonials .testimonial.ntfmac
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2021/02/9to5maclogo.png);
+	background-size: 50% auto;
+	background-position: center 1.5em;
+}
+
+.testimonials .testimonial.androidauthority
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2021/02/logo_android_about.png);
+	background-size: 50% auto;
+	background-position: center 1.5em;
+
+}
+
+.testimonials .testimonial.trusted
+{
+	background-size: 50% auto;
+	background-position: center 0em;
+
+}
+
+.large-image-copy.office
+{
+	height: 49vw;
+}
+
+
+.large-image-copy.office .large-image-copy-inner
+{
+	padding-right: 5vw;
+	padding-top: 13vw;
+}
+
+.setup-steps
+{
+	text-align: center;
+	margin-top: 7vw;
+	margin-bottom: 2vw;
+	background: #f3f9ff;
+}
+
+
+.setup-steps .step-nr
+{
+	font-weight: bold;
+	font-size: 2vw;
+}
+
+.setup-steps .setup-step
+{
+
+
+
+
+	margin-top: 5vw;
+	margin-bottom: 7vw;
+}
+
+.setup-steps .setup-step h3
+{
+	margin: 1vw 0;
+}
+
+.setup-step .setup-image
+{
+	height: 20vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 5vw 0;
+
+
+}
+
+.tech-group
+{
+	width: 50%;
+	float: left;
+	padding-top: 7vw;
+	padding-bottom: 8vw;
+}
+
+.tech-group h4
+{
+	text-transform: uppercase;
+	margin: 3vw 0 0.2vw 0;
+	font-size: 1.3vw;
+}
+
+.tech-group p
+{
+	font-size: 1.3vw;
+	line-height: 1.7vw;
+}
+
+.tech-group.left
+{
+	background-image: radial-gradient(
+	  circle at right center,
+	  #CACACA,
+	  #F6F6F6 50%
+	);
+}
+
+.tech-group.right
+{
+	background-image: radial-gradient(
+	  circle at left center,
+	  #565656,
+	  #252525 80%
+	);
+	color: #fff;
+}
+
+.tech-group-inner
+{
+	background-size: 10vw auto;
+	background-repeat: no-repeat;
+}
+
+.tech-group.left .tech-group-inner
+{
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/flic-split-left.png);
+	background-position: right center;
+	padding-right: 14vw;
+}
+
+.tech-group.right .tech-group-inner
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/flic-split-right.png);
+	background-position: left center;
+	padding-left: 14vw;
+}
+
+.techs .tech-specs-button
+{
+	text-align: center;
+
+	position: absolute;
+	left: 40%;
+	width: 20%;
+	margin-top: 37vw;
+}
+
+.use-cases.features
+{
+	margin-top: 4vw;
+	padding-bottom: 0;
+}
+
+.tech-group h4
+{
+	padding-top: 0.4vw;
+	display: inline-block;
+}
+
+.tech-group .new
+{
+
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2019/11/icon-new.png);
+
+	background-size: auto 60%;
+	background-repeat: no-repeat;
+	background-position: center right;
+	padding-right: 4.3vw;
+
+
+
+}
+
+.tech-group.right .new
+{
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/icon-new-inv.png);
+}
+
+
+.launch-deals .product .price-tag
+{
+
+	font-size: 2.2vw;
+	font-weight: bold;
+	float: right;
+	color: #404040;
+	padding: 0.5vw 1.5vw 0.2vw 1.5vw;
+}
+
+.launch-deals .product .price-tag .price
+{
+	margin-bottom: -1vw;
+}
+
+.launch-deals .product .price-tag .compare-at-price
+{
+	font-weight: lighter;
+	font-size: 1.2vw;
+	text-align: right;
+	text-decoration: line-through;
+	margin-bottom: 0;
+	color: #8e8e8e;
+}
+
+.launch-deals .product
+{
+	background-position: right 5vw center;
+	background-size: auto 80%;
+	background-repeat: no-repeat;
+
+}
+
+.launch-deals .product.left
+{
+	padding-right: 4vw;
+	background-position: right 8vw center;
+}
+
+.launch-deals .product.right
+{
+	padding-left: 4vw;
+}
+
+
+.launch-deals .product.hub-4-flics
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/product-hub-4-flics.png);
+}
+
+.launch-deals .product.hub-8-flics
+{
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2019/11/product-hub-8-flics.png);
+}
+
+.launch-deals .text-highlight
+{
+	font-size: 1.4vw;
+}
+
+
+
+
+.buy-card
+{
+	color: #222;
+}
+
+.buy-card:hover
+{
+	text-decoration: none;
+	color: #222;
+}
+
+
+.buy-card .item
+{
+	padding: 2vw 0 2vw 2vw;
+	background: #f9f9f9;
+	border: 2px solid #f3f3f3;
+	border-top: 2px solid #FF0089;
+}
+
+.buy-card .upper
+{
+	height: 3.9em;
+}
+
+.buy-card .upper h4
+{
+	margin-bottom: 0;
+}
+
+
+.buy-card .product-image
+{
+	width: 15vw;
+	height: 15vw;
+	margin-right: 2vw;
+	float: left;
+	background-size: contain;
+	background-color: #f1f1f1;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.buy-card.black .product-image {
+    background-color: transparent
+}
+
+.buy-card.black .product-image-outer {
+    background-image: linear-gradient(0deg,#505050,#252525)
+}
+
+.shopify-product .product-image .out-of-stock-banner
+{
+	display: none;
+}
+
+.shopify-product.out-of-stock .product-image .out-of-stock-banner
+{
+	display: block;
+	background-position: top right;
+	background-size: 50% 50%;
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/sold-out-badge.png);
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.shopify-product.out-of-stock .round-button
+{
+	opacity: 0.5;
+}
+
+.shopify-product .product-image .badge
+{
+	display: block;
+  background-color: #000000d1;
+  color: #fff;
+  font-weight: bold;
+  padding: 9% 8% 8% 8%;
+  float: right;
+  line-height: 0;
+  text-align: center;
+  font-size: 90%;
+	border-radius: 0;
+}
+
+.shopify-product.out-of-stock .product-image .badge
+{
+	display: none;
+}
+
+
+.buy-card .price
+{
+	font-weight: bold;
+	font-size: 140%;
+	color: #444;
+	display: block;
+}
+
+.buy-card .compare-at-wrap
+{
+	height: 2.2vw;
+	visibility: hidden;
+}
+
+.buy-card .compare-at-price
+{
+	font-size: 60%;
+	font-weight: normal;
+	color: #888;
+	text-decoration: line-through;
+}
+
+.buy-card .percentage-off-wrap
+{
+	font-size: 60%;
+	font-weight: bold;
+	color: #FF0089;
+}
+
+.buy-card.vertical .item
+{
+	padding: 0;
+	border: 1px solid #e0e0e0;
+}
+
+
+.buy-card.vertical h4
+{
+	font-weight: lighter;
+	font-size: 2.5vw;
+}
+
+.buy-card.vertical .product-image
+{
+	float: none;
+	width: 100%;
+	height: 27vw;
+	margin-bottom: 2vw;
+}
+
+.buy-card.vertical .upper
+{
+	height: 38vw;
+}
+
+.buy-card.vertical .content
+{
+	padding: 0 2vw;
+}
+
+.buy-card.vertical .price
+{
+	margin-bottom: 2vw;
+	font-size: 170%;
+}
+
+.buy-card.vertical .compare-at-wrap
+{
+	height: 2.7vw;
+}
+
+.buy-card.vertical .round-button
+{
+	display: block;
+	text-align: center;
+	border-radius: 0;
+	line-height: 3vw;
+	font-size: 110%;
+}
+
+
+footer
+{
+	background-color: #161719;
+	color: #fff;
+	font-size: 1.3vw;
+	padding-top: 3vw;
+	padding-bottom: 5vw;
+}
+
+footer h4
+{
+	font-size: 1.6vw;
+	margin-top: 1.5vw;
+}
+
+footer a
+{
+	color: #fff;
+}
+
+footer .column
+{
+	width: 20%;
+	float: left;
+}
+
+footer ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+.sign-up p
+{
+	float: left;
+	width: auto;
+}
+
+footer .social-links li
+{
+	float: left;
+}
+
+footer .social-links li img
+{
+	width: 2.5vw;
+	height: 2.5vw;
+	margin-right: 1vw;
+}
+
+footer .safe-payments li
+{
+	float: left;
+	margin-right: 1vw;
+}
+
+footer .divider
+{
+	border-bottom: 1px solid #5a5a5a;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+
+}
+
+.sign-up-form
+{
+	background-color: #4a4a4a;
+
+	display: inline-block;
+	border-radius: 2vw;
+	padding-left: 1vw;
+	float: right;
+}
+
+.sign-up-form input
+{
+	border: none;
+	outline: none;
+	margin: 0;
+}
+
+.sign-up-form input[type=email]
+{
+	font-weight: lighter;
+
+	height: 2.2rem;
+	display: block;
+	float: left;
+	background: none;
+	color: #fff;
+	width: auto;
+	padding-left: 0.5rem;
+}
+
+.sign-up-form input[type=email]::placeholder
+{
+	color: #aaa !important;
+}
+
+.sign-up-form input[type=submit]
+{
+	position: relative;
+	left: 1px;
+	width: auto;
+}
+
+
+
+section.home-kit img
+{
+	width: 18vw;
+	
+}
+
+section.home-kit p
+{
+	float: left;
+}
+
+
+.image-copy-content .image
+{
+	background-size: cover;
+	background-position: center center;
+}
+
+.image-copy-content .copy
+{
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
+}
+
+.image-copy-content h3
+{
+	margin-bottom: 2vw;
+	font-weight: normal;
+}
+
+.image-copy-content ul
+{
+	padding-left: 1.5em;
+}
+
+
+
+section.devices
+{
+	background-color: #f3f9ff;
+}
+
+section.devices p
+{
+	margin: 2vw 0 2vw 0;
+}
+
+section.devices .devices-image
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/devices.jpg);
+	background-color: #f3f9ff;
+	background-blend-mode: multiply;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+section.business .examples
+{
+	margin-left: -1vw;
+}
+
+section.business .vignette
+{
+	background-image: linear-gradient(-90deg, #03041d99 39%, transparent 63%);
+}
+
+
+
+section.business .examples img
+{
+	width: 5vw;
+	margin: 1vw;
+}
+
+section.triggers.use-cases .use-case
+{
+	padding-top: 0;
+}
+
+.flic-layered
+{
+	margin: 0 auto;
+}
+
+.flic-layered,
+.flic-layered .layer
+{
+	width: 10vw;
+	height: 10vw;
+}
+
+.flic-layered .layer
+{
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.flic-layered-over
+{
+	position: absolute;
+	/* background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/flic-stylized-over.png); */
+	background-image: url('../img/flic/flic-stylized-over.png');
+
+}
+
+.flic-layered-under
+{
+	position: absolute;
+	/* background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/flic-stylized-under.png); */
+	background-image: url('../img/flic/flic-stylized-under.png');
+
+	animation-duration: 3s;
+	animation-direction: normal;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+
+.flic-layered.click .flic-layered-under
+{
+	animation-name: trigger-click;
+
+
+}
+
+.flic-layered.double-click .flic-layered-under
+{
+	animation-name: trigger-double-click;
+	animation-delay: 0.7s;
+}
+
+.flic-layered.hold .flic-layered-under
+{
+	animation-name: trigger-hold;
+	animation-delay: 1.4s;
+
+}
+
+@keyframes trigger-click {
+  0% {
+	transform: translate(0, 0);
+  }
+
+  5% {
+	transform: translate(0, 0.5vw);
+  }
+
+  10% {
+	transform: translate(0, 0);
+  }
+
+}
+
+@keyframes trigger-double-click {
+  0% {
+	transform: translate(0, 0);
+  }
+
+  5% {
+	transform: translate(0, 0.5vw);
+  }
+
+
+  10% {
+	transform: translate(0, 0);
+  }
+
+  15% {
+	transform: translate(0, 0.5vw);
+  }
+
+  20% {
+	transform: translate(0, 0);
+  }
+
+}
+
+@keyframes trigger-hold {
+  0% {
+	transform: translate(0, 0);
+  }
+
+  5% {
+	transform: translate(0, 0.5vw);
+  }
+
+  35% {
+	transform: translate(0, 0.5vw);
+  }
+
+  40% {
+	transform: translate(0, 0);
+  }
+
+}
+
+
+.product-buy h1
+{
+	font-size: 3vw;
+}
+
+.product-buy
+{
+	padding-left: 6vw;
+	padding-right: 6vw;
+}
+
+
+.product-gallery
+{
+	height: 33vw;
+	width: 48.3%;
+	float: left;
+}
+
+.product-details
+{
+	width: 46%;
+	float: right;
+}
+
+.product-details .upper
+{
+	height: 14.15em;
+}
+
+.product-details .shipping-info
+{
+	height: 2.5em;
+	margin-top: -0.5em;
+}
+
+
+.product-gallery .thumbnail,
+.product-gallery .large-image
+{
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/hub4flicsproduct-1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #f5f5f5;
+
+}
+
+.product-gallery .thumbnail
+{
+	width: 18%;
+	height: 22.9%;
+	margin-bottom: 2.2%;
+	display: block;
+}
+
+.product-gallery .large-image
+{
+	float: right;
+	width: 77.5%;
+	height: 100%;
+	margin-right: 2.6%;
+}
+
+
+.product-buy .add-to-cart
+{
+
+}
+
+.product-buy .price
+{
+	font-size: 3vw;
+	margin-bottom: 0;
+	color: #333;
+	font-weight: bold;
+}
+
+.product-buy .price .compare-at
+{
+	color: #888;
+	text-decoration: line-through;
+	font-size: 2vw;
+	font-weight: normal;
+
+}
+
+.quantity-select
+{
+	-webkit-appearance: none;
+	appearance: none;
+	float: left;
+	border-radius: 2em;
+	border: 1px solid #ccc;
+	width: 3.5em;
+	text-align: center;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.1vw;
+	display: inline-block;
+	padding: .50em 0em .35em 1.4em;
+	font-size: 1.1em;
+	margin-right: .7em;
+	outline: none;
+}
+
+.buy-more .item
+{
+	background-color: #fbfbfb;
+	border: 2px solid #f7f7f7;
+	border-top-color: #FF0089;
+	padding: 2vw;
+	margin-bottom: 3vw;
+}
+
+.buy-more a
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+.buy-more .product-image
+{
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/hub4flicsproduct-1.png);
+	background-position: center;
+	background-size: auto 60%;
+	background-repeat: no-repeat;
+
+	height: 15vw;
+	width: 15vw;
+	float: left;
+	background-color: #f3f3f3;
+	margin-right: 2vw;
+}
+
+/* .buy-more .price
+{
+
+} */
+
+.buy-more .upper
+{
+	height: 11.8vw;
+}
+
+
+
+.shopify-product .color-picker {
+
+	height: 3vw;
+}
+
+.shopify-product .color-picker a div,
+.shopify-product .color-picker a
+{
+	-webkit-background-size: 3vw 3vw;
+	background-size: 3vw 3vw;
+}
+
+
+.shopify-product .color-picker a
+{
+	width: 3vw;
+	height: 3vw;
+	display: inline-block;
+	margin: 0 0.2vw;
+}
+
+.shopify-product .variant-picker-wrap
+{
+	display: none;
+}
+
+.shopify-product .color-picker-wrap b
+{
+
+	display: inline;
+	padding-top: 0.7vw;
+	float: left;
+	padding-right: 1vw;
+}
+
+.shopify-product .color-picker
+{
+
+}
+
+.shopify-product .variant-picker-wrap.enabled
+{
+	display: block;
+}
+
+.shopify-product .color-picker a.white {
+	background-color: #fff;
+}
+
+.shopify-product .color-picker a.black {
+	background-color: #222;
+}
+
+.shopify-product .color-picker a.teal {
+	background-color: #4cc1bb;
+}
+
+.shopify-product .color-picker a.green {
+	background-color: #9ec24b;
+}
+
+.shopify-product .color-picker a.four-pack-bw,
+.shopify-product .color-picker a.blackwhite,
+.shopify-product .color-picker a.megapackbw
+{
+	background-image: url(https://static2.shortcutlabs.com/wp-content/themes/flic-theme/assets/dist/images/color-picker-bw.png);
+}
+
+.shopify-product .color-picker a.four-pack-colorful,
+.shopify-product .color-picker a.colorful,
+.shopify-product .color-picker a.megapackcolor,
+.shopify-product .color-picker a.four-pack-colorful2 {
+	background-image: url(https://static2.shortcutlabs.com/wp-content/themes/flic-theme/assets/dist/images/color-picker-colorful.png);
+}
+
+.shopify-product .color-picker a div {
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2017/10/color-picker.png);
+	height: 100%;
+}
+
+
+.shopify-product .color-picker a.selected div {
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2017/10/color-picker-selected.png);
+}
+
+.shopify-product .socket-picker a
+{
+	background: #f5f5f5;
+	color: #5f5f5f;
+
+	border: 2px solid #bbbbbb;
+	padding: 0.2vw 0.6vw;
+	display: inline-block;
+
+	border-radius: 0.3vw;
+	margin-right: 1vw;
+	opacity: 0.7;
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2019/11/e27-edison-screw_50x.png);
+	background-size: 80% auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 2.2vw;
+
+}
+
+.shopify-product .socket-picker a.b22
+{
+	background-image: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/b22-bayonet-cap_50x.png);
+}
+
+.shopify-product .socket-picker a:hover
+{
+	text-decoration: none;
+}
+
+.shopify-product .socket-picker a.selected
+{
+	border: 2px solid #2f2f2f;
+	opacity: 1.0;
+	color: #000;
+}
+
+.video-popup-wrap
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	background: #0008;
+}
+
+.video-popup-inner
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0;
+	width: 100%;
+	height: 63vw;
+	padding: 5%;
+}
+
+.video-popup-inner .close
+{
+	width: 50px;
+	height: 50px;
+	background: #000;
+	float: right;
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2019/11/x.png);
+	background-size: auto 53%;
+	background-position: center;
+	opacity: 1;
+	background-repeat: no-repeat;
+}
+
+.top-image-columns img
+{
+	width: 100%;
+	margin-bottom: 4vw;
+}
+
+.top-image-columns
+{
+	text-align: center;
+}
+
+.top-image-columns p
+{
+	padding: 2vw 0;
+}
+
+
+
+section.reviews .review-image
+{
+	height: 10vw;
+	width: 10vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2vw;
+	border-radius: 20vw;
+	background-size: cover;
+}
+
+section.reviews .stars
+{
+	height: 2vw;
+
+	margin-bottom: 3vw;
+	text-align: center;
+}
+
+section.reviews .stars .star
+{
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2020/11/star-filled-gold.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 2.2rem;
+	height: 100%;
+	display: inline-block;
+}
+
+
+
+
+.shopify-populate-cart
+{
+	width: 100%;
+	text-align: left;
+}
+
+.shopify-populate-cart .cart-header
+{
+
+}
+
+
+.shopify-populate-cart .quantity-outer
+{
+	border: 2px solid #ccc;
+	border-radius: 10em;
+	display: inline-block;
+	margin-top: 4em;
+}
+
+.shopify-populate-cart .quantity
+{
+	width: 1.5em;
+	text-align: center;
+	border: 0;
+	margin-left: -0.6em;
+	margin-right: -0.6em;
+}
+
+.shopify-populate-cart .price
+{
+	margin-top: 4.4em;
+	height: 1.5em;
+}
+
+.shopify-populate-cart .price.loading,
+.shopify-populate-cart-sum.loading
+{
+	background-image: url('../img/flic/loading.gif');
+	background-size: auto 85%;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.shopify-populate-cart-sum
+{
+	display: inline-block;
+}
+
+.shopify-populate-cart-sum.loading
+{
+	padding-top: 1.2em;
+	padding-left: 4em;
+}
+
+.shopify-populate-cart .increment,
+.shopify-populate-cart .decrement
+{
+	padding: .12em .5em .2em .5em;
+	color: #a0a0a0;
+	font-size: 1.2em;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.shopify-populate-cart .increment:hover,
+.shopify-populate-cart .decrement:hover
+{
+	color: #444;
+}
+
+.shopify-populate-cart .cart-col-2
+{
+	text-align: center;
+}
+
+.shopify-populate-cart .cart-col-1,
+.shopify-populate-cart .cart-col-2,
+.shopify-populate-cart .cart-col-3
+{
+	float: left;
+}
+
+.shopify-populate-cart .cart-col-1
+{
+	width: 60%;
+}
+
+.shopify-populate-cart .cart-col-2
+{
+	width: 20%;
+}
+
+.shopify-populate-cart .cart-col-3
+{
+	width: 20%;
+}
+
+.shopify-populate-cart .cart-line-item-outer
+{
+	overflow: hidden;
+}
+
+.shopify-populate-cart .cart-line-item
+{
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 1px solid #eaeaea;
+}
+
+
+.shopify-populate-cart .product-image
+{
+	width: 10em;
+	height: 10em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #f9f9f9;
+	float: left;
+	margin-right: 1em;
+}
+
+.shopify-populate-cart .placeholder .product-image
+{
+	background-image: url('../img/flic/loading.gif') !important;
+	background-size: 1.5em;
+}
+
+.shopify-populate-cart .placeholder .product-title
+{
+	background: #f9f9f9;
+  padding-left: 8em;
+}
+
+.shopify-populate-cart .placeholder .remove
+{
+	background: #f9f9f9;
+	color: #f9f9f9;
+}
+
+.shopify-populate-cart .placeholder .price
+{
+	background: #f9f9f9;
+	width: 4em;
+}
+
+.shopify-populate-cart .product-info
+{
+	padding-top: 2.3em;
+}
+
+.shopify-populate-cart .product-info .quantity-outer
+{
+	display: none;
+}
+
+.shopify-populate-cart .product-info .price
+{
+	display: none;
+}
+
+.shopify-populate-cart .product-title
+{
+	font-size: 140%;
+	color: #484848
+}
+
+.cart-summary
+{
+	margin-top: 2em;
+	padding: 1.3em;
+	background: #fbfbfb;
+	border: 2px solid #f3f3f3;
+	text-align: left;
+}
+
+.cart-summary .payment-methods
+{
+	padding-left: 2em;
+}
+
+.cart-summary .payment-method
+{
+
+	float: left;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	width: 3em;
+	height: 1.2em;
+	margin-right: -.5em;
+	display: inline-block;
+	margin-top: 1.5em;
+}
+
+.cart-summary .summary-col-1,
+.cart-summary .summary-col-2
+{
+	float: right;
+}
+
+.cart-summary .summary-col-1
+{
+	width: 7em;
+}
+
+.cart-summary .summary-col-2
+{
+	width: 13em;
+
+}
+
+.cart-summary-shipping
+{
+	margin-bottom: .5em;
+}
+
+.cart-summary-shipping span
+{
+	font-size: 90%;
+	color: #888;
+
+}
+
+.cart-summary-price
+{
+
+	font-weight: bold;
+	color: #3d3d3d;
+
+}
+
+.cart-summary-price span
+{
+	font-size: 170%;
+}
+
+.cart-summary-price .price-title
+{
+
+}
+
+
+.cart-addons
+{
+	margin-left: -1em;
+	margin-right: -1em;
+	margin-top: 1em;
+}
+
+.cart-addon-outer
+{
+	width: 50%;
+	float: left;
+}
+
+.cart-addon
+{
+	display: block;
+	color: #333;
+	background: #fbfbfb;
+	border: 2px solid #f3f3f3;
+	margin: 1em;
+	border-top-color: #ce148cc7;
+	transition: opacity 0.5s;
+}
+
+.cart-addon .round-button
+{
+	border-color: #ce148cc7;
+	color: #ce148cc7;
+}
+.cart-addon .round-button:hover
+{
+	background: #ce148cc7;
+	color: #fff;
+}
+
+
+.cart-addon:hover
+{
+	text-decoration: none;
+	color: #333;
+}
+
+.cart-addon-inner
+{
+	padding: 1em;
+}
+
+.cart-addon-image
+{
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 10em;
+	height: 10em;
+	float: left;
+	margin-right: 1em;
+	background-color: #f1f1f1;
+}
+
+.cart-addon .cart-addon-description
+{
+	font-size: 90%;
+	line-height: normal;
+	height: 3.6em;
+}
+
+.cart-addon .cart-addon-price
+{
+	font-weight: bold;
+	font-size: 130%;
+	margin-bottom: 0.3em;
+}
+
+.cart-checkout-section p
+{
+	color: #505050;
+}
+
+@media only screen and (max-width: 767px) {
+
+
+	header .menu .menu-item.currency-selector
+	{
+		line-height: 2.2vw;
+	}
+
+	.shopify-populate-cart p
+	{
+		margin-bottom: 0;
+	}
+
+	.shopify-populate-cart .product-info
+	{
+		padding-top: 0;
+	}
+
+	.shopify-populate-cart .product-info .quantity-outer
+	{
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.shopify-populate-cart .product-info .price
+	{
+		display: block;
+		margin-bottom: 0.65em;
+	}
+
+	.shopify-populate-cart .cart-header
+	{
+		display: none;
+	}
+
+	.shopify-populate-cart .cart-col-1
+	{
+		width: 100%;
+	}
+
+	.shopify-populate-cart .cart-col-2
+	{
+		display: none;
+	}
+
+	.shopify-populate-cart .cart-col-3
+	{
+		display: none;
+	}
+
+	.shopify-populate-cart .product-title-outer
+	{
+		margin-bottom: 0.7em;
+		height: 2.3em;
+	}
+
+	.shopify-populate-cart .price
+	{
+		margin-top: 0.2em;
+		font-size: 120%;
+
+	}
+
+	.shopify-populate-cart .cart-line-item-outer:first-child .cart-line-item
+	{
+		margin-top: 0;
+		border: 0;
+	}
+
+	.shopify-populate-cart .product-image
+	{
+		width: 8em;
+		height: 8em;
+	}
+
+	.shopify-populate-cart .quantity-outer
+	{
+		margin-top: 0;
+		float: left;
+    margin-right: 1em;
+		margin-bottom: 0;
+	}
+
+	.shopify-populate-cart .remove
+	{
+		margin-top: .5em;
+		display: inline-block;
+	}
+
+
+	.cart-addon-outer
+	{
+		width: 100%;
+	}
+
+	.cart-addon .cart-addon-price
+	{
+		float: left;
+		padding-top: 1.2em;
+	}
+
+	.cart-addon .round-button
+	{
+		float: right;
+		margin-top: 0.7em;
+	}
+
+	.cart-summary .payment-methods
+	{
+		height: 2.5em;
+		padding-left: 0.5em;
+	}
+
+	.cart-summary .payment-method
+	{
+		width: 3.5em;
+		margin-top: 0;
+	}
+
+	.cart-summary .summary-col-2
+	{
+		width: 15.5em;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px) {
+	.hide-on-desktop
+	{
+		display: none !important;
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+	html, body {
+		font-size: 3.5vw;
+	}
+
+	h1
+	{
+		letter-spacing: 0.05vw;
+		font-size: 7vw;
+
+	}
+
+	h2
+	{
+		font-size: 6vw;
+	}
+
+	h3
+	{
+		font-size: 5vw;
+	}
+
+	h4
+	{
+		font-size: 3.5vw;
+	}
+
+	p
+	{
+		margin-bottom: 5vw;
+	}
+
+	.hide-on-mobile
+	{
+		display: none !important;
+	}
+
+	.site-content
+	{
+		padding-top: 14vw;
+	}
+
+
+	.site-padding
+	{
+
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+	header .menu .menu-item.shop,
+	header .menu-items.mobile-menu-button,
+	header .menu,
+	header .logo,
+	header .menu .menu-item
+	{
+		height: 14vw;
+	}
+
+	.menu-item
+	{
+		width: auto;
+	}
+
+	header .logo
+	{
+		width: 15vw;
+		margin-left: 4vw;
+		background-size: 12vw auto;
+	}
+
+	header .menu .menu-item,
+	header .menu .menu-item.shop
+	{
+		padding: 6vw;
+		font-size: 3.1vw;
+		width: auto;
+	}
+
+	header .menu .menu-item.cart-menu-item
+	{
+		line-height: 2.8vw;
+		background-size: 5vw 5vw;
+		width: 14vw;
+		background-position: 4.5vw 4vw;
+	}
+
+	header .menu-item.mobile-menu-button,
+	header .menu-item.mobile-menu-button:hover
+	{
+		background: #202020;
+		width: 14vw;
+		float: right;
+		background-image: url(https://static2.shortcutlabs.com/wp-content/uploads/2019/11/icon-menu.svg);
+		background-repeat: no-repeat;
+		background-size: 18vw auto;
+		background-position: 4vw center;
+		transition: background .5s;
+	}
+
+	header .menu-item.mobile-menu-button.open
+	{
+		background-position: -8vw center;
+	}
+
+	.mobile-menu-wrap
+	{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		width: 100%;
+		height: 0;
+		transition: height 0.5s;
+		overflow: hidden;
+	}
+
+	.mobile-menu
+	{
+
+		margin-top: 14vw;
+		margin-left: 30%;
+		width: 70%;
+		font-size: 4vw;
+
+		background: #212121;
+	}
+
+	.mobile-menu a
+	{
+		color: #fff;
+	}
+
+	.mobile-menu a:hover
+	{
+		text-decoration: none;
+	}
+
+	.mobile-menu ul
+	{
+		padding: 2vw 0;
+		list-style-type: none;
+
+	}
+
+	.mobile-menu li a
+	{
+		display: block;
+		padding: 3vw 6vw;
+
+	}
+
+	.mobile-menu li.level-1
+	{
+		padding-left: 4vw;
+		font-size: 4vw;
+
+
+		border-left: 2vw solid #484848;
+		background: #313131;
+	}
+
+	.mobile-menu li.level-1 a
+	{
+		padding: 1vw;
+	}
+
+	.hero-wrap
+	{
+		margin-top: 0;
+	}
+
+	.hero
+	{
+		background: #000;
+	}
+
+	.hero .overlay h1
+	{
+		font-size: 9vw;
+		border-bottom: none;
+		padding: 5vw 0 15vw 0;
+		text-align: center;
+	}
+
+	.hero .overlay .hero-primary
+	{
+		font-size: inherit;
+	}
+
+	.hero .overlay h1 .colon
+	{
+		display: none;
+	}
+
+	.hero .overlay p
+	{
+		font-size: 4.1vw;
+
+	}
+
+	.hero-subtitle
+	{
+		font-size: 5.8vw;
+	}
+
+	.hero-copy
+	{
+		margin-left: -10vw;
+		margin-right: -10vw;
+		padding: 6vw 10vw 2vw 10vw;
+		background: #2c2b34;
+	}
+
+
+
+
+	.hero,
+	.hero .video-wrap,
+	.hero .overlay
+	{
+		height: 114vw;
+	}
+
+
+	.hero .video-wrap video
+	{
+		width: 112%;
+		height: 61.3vw;
+	}
+
+	.hero .overlay .inner a.buynow
+	{
+		font-size: 3.5vw;
+		padding: 4.8vw 10vw 4.5vw 10vw;
+	}
+
+	.flic2-product-feature .product-image
+	{
+		width: 86vw;
+		height: 59vw;
+	}
+
+	.flic2-product-feature .copy
+	{
+		width: 68vw;
+	}
+
+	.flic2-product-feature
+	{
+		padding-bottom: 10vw;
+	}
+
+
+	.launch-deals .product.left,
+	.launch-deals .product.right
+	{
+		background-position: right 6vw center;
+
+	}
+
+	.launch-deals .product
+	{
+		margin-bottom: 10vw;
+	}
+
+	.launch-deals .product .price-tag
+	{
+		font-size: 5vw;
+	}
+
+	.launch-deals .product .price-tag .compare-at-price
+	{
+		font-size: 3vw;
+	}
+
+	.launch-deals .text-highlight
+	{
+		font-size: inherit;
+		padding: 1vw 1vw 0.6vw 1vw;
+	}
+
+
+	.large-image-copy
+	{
+		background-position: center 0vw;
+	}
+
+	.large-image-copy.smart-home,
+	.large-image-copy.office,
+	.large-image-copy.business
+
+	{
+		height: auto;
+	}
+
+	section.business .vignette
+	{
+		background: none;
+	}
+
+	.large-image-copy.smart-home .large-image-copy-inner,
+	.large-image-copy.office .large-image-copy-inner,
+	.large-image-copy.business .large-image-copy-inner
+	{
+		padding: 6vw;
+		width: auto;
+	}
+
+	.large-image-copy .vignette
+	{
+		background: none;
+	}
+
+	.large-image-copy.smart-home
+	{
+		background-size: auto 52vw;
+	}
+
+	.large-image-copy.smart-home .large-image-copy-inner
+	{
+		padding-top: 57vw;
+	}
+
+	.large-image-copy.office
+	{
+		background-color: #191919;
+	}
+
+	.large-image-copy.office .large-image-copy-inner
+	{
+		padding-top: 65vw;
+	}
+
+
+	.large-image-copy.business .large-image-copy-inner
+	{
+		padding-top: 57vw;
+		color: #222;
+	}
+
+	.large-image-copy .logos .logo-image
+	{
+		background-size: auto 9vw;
+		min-width: 10vw;
+	}
+
+	.large-image-copy .logos .logo.ifttt .logo-image
+	{
+		background-position: center;
+	}
+
+	section.business .examples img
+	{
+		width: 14vw;
+	}
+
+
+	.large-image-copy .logos .logo
+	{
+		font-size: 3.3vw;
+	}
+
+	.large-image-copy .logos .logo-image.bg
+	{
+		width: 10vw;
+	}
+
+	.large-image-copy .logos .logo-image
+	{
+		margin: 0 auto 4vw auto;
+		height: 10vw;
+	}
+
+	.use-cases
+	{
+		margin-top: 5vw;
+	}
+
+	.use-cases.real-buttons .use-case
+	{
+		background-size: 37% auto;
+
+	}
+
+	.use-case-line
+	{
+		display: none;
+	}
+
+	.use-cases.real-buttons .use-case,
+	.use-cases.features .use-case
+	{
+		padding-top: 4vw;
+		padding-left: 36vw;
+		text-align: left;
+		background-position: left center;
+		background-size: 35% auto;
+		margin: 3vw 0;
+	}
+
+	.use-cases.features .use-case
+	{
+		background-position: left 4vw center;
+    	background-size: 26% auto;
+	}
+
+
+
+
+	section.home-kit
+	{
+		width: 50vw;
+		text-align: center;
+	}
+
+	section.home-kit img
+	{
+		width: 100%;
+		margin-right: 0;
+		display: block;
+		margin-bottom: 5vw;
+		float: none;
+	}
+
+
+
+
+	.testimonials .testimonial
+	{
+
+		width: 100%;
+		float: none;
+		background-position: left 7vw center;
+		background-repeat: no-repeat;
+		padding-top: 0;
+		margin: 5vw 0;
+		text-align: left;
+		padding-left: 32vw;
+		background-size: 10vw auto;
+	}
+
+	.testimonials .testimonial.wired
+	{
+		background-position: left 4.8vw center;
+		background-size: 18vw auto;
+		padding-top: 0;
+	}
+
+	.testimonials .testimonial.cnet
+	{
+		background-position: left 9vw center;
+		background-size: 10vw auto;
+	}
+
+	.testimonials .testimonial.trusted
+	{
+
+		background-position: left 5vw top 0.5vw;
+		background-size: 18vw auto;
+	}
+
+	.testimonials .testimonial
+	{
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.setup-steps .step-nr
+	{
+		font-size: 4vw;
+	}
+
+	.setup-step .setup-image
+	{
+		height: 36vw;
+	}
+
+	.image-copy-content .image
+	{
+		height: 55vw;
+    	margin-bottom: 2vw;
+	}
+
+	.image-copy-content ul
+	{
+		padding-left: 2rem;
+	}
+
+
+	section.devices
+	{
+		text-align: center;
+	}
+
+	section.devices p
+	{
+		padding: 3vw 0;
+	}
+
+	.devices-image
+	{
+		height: 48vw;
+    	margin: 10vw 0;
+	}
+
+	.round-button.big
+	{
+		margin-top: 5vw;
+	}
+
+	.round-button.inverted
+	{
+		/*padding: 5vw 6vw 4vw 6vw;*/
+	}
+
+
+	.product-gallery {
+    height: 70vw;
+    width: 100%;
+    float: none;
+	}
+
+	.product-gallery .large-image {
+    width: 80%;
+    margin-right: 0;
+	}
+
+	.product-details {
+    width: auto;
+    float: none;
+		margin-top: 5vw;
+	}
+
+	.product-details .upper
+	{
+		height: auto;
+	}
+
+	.quantity-select {
+
+	}
+
+	.product-buy .price {
+		font-size: 6vw;
+	}
+
+	.product-buy .price .compare-at
+	{
+		font-size: 4vw;
+	}
+
+	.buy-card .item
+	{
+		margin-bottom: 5vw;
+	}
+
+	.buy-card h4
+	{
+		font-size: 4vw;
+		margin-bottom: 0;
+	}
+
+
+	.buy-card .upper {
+		height: 15.5vw;
+	}
+
+	.buy-card .product-image {
+    width: 36vw;
+    height: 36vw;
+	}
+
+	/* .buy-card .round-button,
+	.buy-card .round-button.inverted
+	{
+		padding: 4vw 5vw 3vw 5vw;
+	} */
+
+	.buy-card .price
+	{
+		margin-bottom: 0vw;
+	}
+
+	.buy-card .compare-at-wrap
+	{
+		height: 5.2vw;
+	}
+
+	.buy-card.vertical
+	{
+		margin: 0 7vw 7vw 7vw;
+	}
+
+	.buy-card.vertical .product-image
+	{
+		height: 78vw;
+	}
+
+
+	.buy-card.vertical .upper
+	{
+		height: 104vw;
+	}
+
+	.buy-card.vertical .content
+	{
+		padding: 0 5vw;
+	}
+
+	.buy-card.vertical .product-image
+	{
+		margin-bottom: 5vw;
+	}
+
+	.buy-card.vertical .price
+	{
+		margin-bottom: 5vw;
+	}
+
+	.buy-card.vertical .compare-at-wrap
+	{
+		height: 6vw;
+	}
+
+
+	.buy-card.vertical h4 {
+		font-size: 7.5vw;
+	}
+
+	.large-image-copy.hardware
+	{
+		height: auto;
+    padding-top: 40vw;
+    padding-bottom: 5vw;
+    color: #222;
+	}
+
+	.large-image-copy .large-image-copy-inner
+	{
+		width: auto;
+	}
+
+
+	.large-image-copy.smart-home .logos .logo
+	{
+		width: 33%;
+    padding: 0;
+    margin: 0 0 2em 0;
+	}
+
+	.product-buy h1 {
+		font-size: 7vw;
+	}
+
+
+
+
+	.tech-group
+	{
+		float: none;
+		width: 100%;
+	}
+
+	.tech-group-inner
+	{
+		background-size: auto 70%;
+	}
+
+	.tech-group.left .tech-group-inner
+	{
+		padding-right: 28vw
+	}
+
+	.tech-group.right .tech-group-inner
+	{
+		padding-left: 32vw;
+	}
+
+	.tech-group p
+	{
+		font-size: inherit;
+		line-height: inherit;
+	}
+
+	.tech-group h4
+	{
+		font-size: inherit;
+	}
+
+	.tech-group .new
+	{
+		background-size: auto 62%;
+		padding-right: 9.3vw;
+	}
+
+
+	footer
+	{
+		font-size: 4.3vw
+	}
+
+	footer h4
+	{
+		font-size: 5.6vw;
+	}
+
+	footer .social-links
+	{
+		margin-bottom: 15vw;
+	}
+
+	footer .social-links li img
+	{
+		width: 8.5vw;
+		height: 8.5vw;
+		padding: 0;
+		opacity: 1;
+	}
+
+	footer .divider
+	{
+		margin-top: 2vw;
+    	margin-bottom: 5vw;
+	}
+
+	.flic-layered, .flic-layered .layer
+	{
+		width: 20vw;
+    	height: 20vw;
+	}
+
+	.sign-up
+	{
+		margin-top: 4vw;
+    	margin-bottom: 6vw;
+    	text-align: center;
+	}
+
+	.sign-up p
+	{
+		float: none;
+	}
+
+	.sign-up-form
+	{
+		width: 100%;
+		border-radius: 7vw;
+	}
+
+	.sign-up-form input[type=email]
+	{
+		width: 65%;
+		padding: 4.5vw 2vw 3vw 3vw;
+	}
+
+	.sign-up-form input[type=submit]
+	{
+		left: 2vw;
+	}
+
+
+	.shopify-product .color-picker-wrap
+	{
+		height: 12vw;
+	}
+
+	.shopify-product .color-picker {
+
+		height: 8vw;
+	}
+
+	.shopify-product .color-picker-wrap b
+	{
+		padding-top: 1.7vw;
+	}
+
+	.shopify-product .color-picker a div,
+	.shopify-product .color-picker a
+	{
+		-webkit-background-size: 8vw 8vw;
+		background-size: 8vw 8vw;
+	}
+
+
+	.shopify-product .color-picker a
+	{
+		width: 8vw;
+		height: 8vw;
+		margin: 0 0.5vw;
+	}
+
+	.top-image-columns
+	{
+		text-align: left;
+	}
+
+	.top-image-columns img
+	{
+		width: 30vw;
+		float: left;
+		height: 30vw;
+		margin-bottom: 0;
+
+	}
+
+	.top-image-columns p
+	{
+
+	}
+
+	.top-image-columns .content
+	{
+		padding-left: 34vw;
+	}
+
+	section.reviews .review
+	{
+		margin-bottom: 3em;
+
+	}
+
+	section.reviews .review .review-copy
+	{
+		font-size: 100%;
+	}
+
+	section.reviews .review-image
+	{
+		height: 20vw;
+		width: 20vw;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 8vw;
+		border-radius: 80vw;
+		background-size: cover;
+	}
+
+	section.reviews .stars
+	{
+		height: 5vw;
+		padding: 0 11vw;
+
+	}
+
+
+
+	.shopify-product .socket-picker
+	{
+		margin-bottom: 2vw;
+	}
+
+	.shopify-product .socket-picker a
+	{
+		padding: 8.2vw 3vw 0.2vw 3vw;
+    border-radius: 1vw;
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+body.hide-default-header .default-header
+{
+	display: none;
+}
+
+body.hide-default-header .site-content
+{
+	padding-top: 0;
+}
+
+
+/* .container-fluid, */
+.width-cap
+{
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.menu-enterprise-container {
+	background-color: #161719;
+	font-size: 16px;
+}
+
+#enterprise-menu {
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#enterprise-menu .menu-item a,
+#enterprise-menu .menu-item a:visited {
+	padding: 10px 10px;
+	color: #fff;
+	display: inline;
+}
+
+#enterprise-menu .menu-item a:hover,
+#enterprise-menu .menu-item a:active,
+#enterprise-menu .menu-item a:focus,
+#enterprise-menu .menu-item.active a {
+
+	color: #aaa;
+}
+
+#enterprise-menu ul
+{
+
+}
+
+#enterprise-menu li
+{
+	display: inline-block;
+	list-style: none;
+	padding: 0.6rem 0.4rem;
+	width: auto;
+}
+
+#enterprise-menu .menu-item.new
+{
+	background: url(https://static1.shortcutlabs.com/wp-content/uploads/2019/11/icon-new-inv.png);
+	background-size: 19% auto;
+	background-position: right 0rem top 0.3rem;
+	background-repeat: no-repeat;
+	padding-right: 1.61rem;
+}
+
+
+
+.reviews-new .stars .star
+{
+	background-image: url(https://static3.shortcutlabs.com/wp-content/uploads/2020/11/star-filled-gold.svg);
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 2rem;
+	height: 4rem;
+	display: inline-block;
+}
+
+.reviews-new .reviewer
+{
+	font-style: italic;
+	font-size: 90%;
+}
+
+.reviews-new .review-image
+{
+	height: 6em;
+	width: 6em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+	border-radius: 100em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reviews-new .copy
+{
+	font-size: 90%;
+}
+
+
+/* Flic Carousell */
+
+.flic-carousell
+{
+	padding: 0;
+}
+
+.carousell-items-outer
+{
+	overflow-x: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	width: 100%;
+
+}
+
+.carousell-items-outer::-webkit-scrollbar {
+  display: none;
+}
+
+.carousell-items
+{
+	width: 100%;
+	display: flex;
+	padding-left: 5.5%;
+	padding-right: 5.5%;
+}
+
+.carousell-item-outer
+{
+	display: inline-block;
+	text-align: center;
+
+}
+
+.carousell-item
+{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flic-carousell-nav
+{
+	display: none;
+	position: absolute;
+	width: 3em;
+	height: 20em;
+	background: #ffffffaa;
+	background-image: url(/wp-content/uploads/2017/10/arrow-left.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.flic-carousell-nav.right
+{
+	right: 0;
+	transform: scaleX(-1);
+}
+
+
+@media only screen and (max-width: 767px) {
+	.flic-carousell-nav
+	{
+		display: block;
+	}
+
+	.carousell-items
+	{
+		padding-left: 12%;
+		padding-right: 12%;
+	}
+}
