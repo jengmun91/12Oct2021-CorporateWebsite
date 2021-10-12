@@ -6883,7 +6883,7 @@ a.badge:hover, a.badge:focus {
 }
 
 .badge-primary {
-    color: #31344b;
+    color: #313f4b;
     background-color: #ffffff;
 }
 
@@ -19875,7 +19875,7 @@ button.section-slack:focus {
 /* .overflow-visible {
     overflow: visible !important;
 }
-
+*/
 .opacity-0 {
     opacity: 0 !important;
 }
@@ -19915,7 +19915,7 @@ button.section-slack:focus {
 .opacity-9 {
     opacity: 0.9 !important;
 }
-
+/*
 .fill-opacity-0 {
     fill-opacity: 0 !important;
 }
@@ -33230,7 +33230,7 @@ header .contactusIconCSS{
     padding: 6px 16px;
     border: 1px solid #1E9FD9;
     border-radius: 3px;
-    font-family: "Montserrat Medium",Helvetica,sans-serif;
+    font-family: Helvetica,sans-serif;
     font-size: 13px;
     text-align: center;
     text-decoration: none;
@@ -33428,6 +33428,8 @@ footer .ProductandSolutionsColCSS img{
 }
 
 
+
+
 /* 
 #heroRing .firstRowCSS img{
     height:50px;width:250px;text-align:end;
@@ -33547,6 +33549,56 @@ footer .ProductandSolutionsColCSS img{
 
 
 
+
+
+
+/*==============MAIN PAGE===========*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    /* background: url("../img/hero-bg.jpg") top center; */
+    /* background: url("../video/bg.mp4") top center; */
+    background: url("../img/mainpage-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+
+    
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  .buttonExplore{
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 25px;
+    border: 0.3px solid rgb(248, 249, 250);    
+    /* padding-left:65px;padding-right:65px; */
+    padding-top:5px;padding-bottom:5px;
+    font-family: "Helvetica-Neue"; font-size:15px;
+  }
+  
+  .buttonExplore:hover{
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.122);
+    background-image: none;
+    border-radius: 25px;
+    /* border: 1px solid rgb(248, 249, 250);     */
+    border:none;
+    /* padding-left:65px;padding-right:65px; */
+    padding-top:5px;padding-bottom:5px;
+    font-family: "Helvetica-Neue"; font-size:15px;
+  }
+  
 
 
 /*=======================*/
@@ -34805,6 +34857,17 @@ footer .ProductandSolutionsColCSS img{
 .m-t-n4{margin-top: -4px;}
 .m-t-n5{margin-top: -5px;}
 .m-t-n10{margin-top: -10px;}
+.m-t-n11{margin-top: -11px;}
+.m-t-n12{margin-top: -13px;}
+.m-t-n13{margin-top: -13px;}
+.m-t-n14{margin-top: -14px;}
+.m-t-n15{margin-top: -15px;}
+.m-t-n16{margin-top: -16px;}
+.m-t-n17{margin-top: -17px;}
+.m-t-n18{margin-top: -18px;}
+.m-t-n19{margin-top: -19px;}
+
+
 .m-t-n20{margin-top: -20px;}
 .m-t-n30{margin-top: -30px;}
 .m-t-n40{margin-top: -40px;}

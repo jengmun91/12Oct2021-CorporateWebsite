@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>21 MainPage</title>
+  <title>21 Lifestyle Main Page</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -17,7 +17,7 @@
   <link href="assets/img/favicon.svg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,26 +34,32 @@
   <!--Add neumorphism-->
   <link type="text/css" href="assets/css/neumorphism.css" rel="stylesheet">
 
+  
+  <!--only Column CSS used newFlicCSS.css-->
+  <link rel="stylesheet" href="./assets/css/newFlicCSS.css">
+
+  <link rel="stylesheet" href="./assets/css/ParticleCSS.css">
+
   <!-- Template Main CSS File -->
  <!-- <link href="assets/css/style.css" rel="stylesheet">  -->
 
 
 <!-- Twitter Card data -->
-<meta name="twitter:card" content="product">
+<!-- <meta name="twitter:card" content="product">
 <meta name="twitter:site" content="@themesberg">
 <meta name="twitter:title" content="Neumorphism UI by Themesberg">
 <meta name="twitter:description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages.">
 <meta name="twitter:creator" content="@themesberg">
-<meta name="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg">
+<meta name="twitter:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg"> -->
 
 <!-- Open Graph data -->
-<meta property="fb:app_id" content="214738555737136">
+<!-- <meta property="fb:app_id" content="214738555737136">
 <meta property="og:title" content="Neumorphism UI by Themesberg" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://demo.themesberg.com/neumorphism-ui/" />
 <meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/neumorphism-ui/neumorphism-thumbnail.jpg"/>
 <meta property="og:description" content="Start developing neumorphic web applications and pages using Neumorphism UI. It features over 100 individual components and 5 example pages." />
-<meta property="og:site_name" content="Themesberg" />
+<meta property="og:site_name" content="Themesberg" /> -->
 
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-touch-icon.png">
@@ -64,512 +70,394 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
-<!--Add a global variable of website name url then just pass all url link change to relative url-->
 
 </head>
 
-<body >
-  <!-- ======= Header ======= -->
-  <!-- <header id="header" class="fixed-top header-global">    -->
- <!-- ======= Header ======= -->
- <header id="header" class="fixed-top">
-  <div class="container d-flex align-items-center justify-content-between">
+<body>
 
-    <!-- <h1 class="logo"><a href="index.html">TWENTY-one<span>.</span></a></h1> -->
-    <a href="./LandingPage.html"> <img class="logoSize" src="./assets/img/21-Logo-Horizontal.png" > </a>
+ 
+ <header id="header" class="fixed-top headerCSS">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
 
+    <div id="mySidenav" class="sidenav">
+      <div class="d-flex LogoRowCSS">
+        <div class="menuBarClose" href="javascript:void(0)" class="closebtn " onclick="closeNav()"><i
+            class="fas fa-bars fa-lg fs-21"></i> <i class="fas fa-chevron-right fa-lg fs-21" ></i></div>
+        <div class="margin-right:auto;logoMenuCSS1"><img src="./assets/img/21-Logo-Horizontal_3.png" style="width:25px;height:20px;margin-top:20px;margin-right:10px;"></div>
+        <div class="horozontalLineCSS" style="background-color:#1e9fd9;height:20px;width:2px;margin-top:20px;"></div>
+        <div class="text-black m-t-21 p-l-7">
+          <p class="fs-16 fw-w300" style="font-family:'Helvetica';">twenty-one</p>
+        </div>
 
-    <nav class="nav-menu d-none d-lg-block">
-      <ul>
-        <li class="active1"><a href="#hero">Home</a></li>
-        <li><a href="#aboutUsSection">About</a></li>
-       
-        <!-- <li><a href="#portfolio">Brands</a></li> -->
-        <!-- <li><a href="#clients">Clients</a></li> -->
-            <!-- <li><a href="#">Drop Down 1</a></li> -->
-            <li class="drop-down"><a href="#portfolio">Brands</a>
+      </div>
+      <div style="text-align:end;">
+        <a href="./index.html">HOME <img src="./assets/img/home_icon.png" class="homeIconCSS m-l-20 m-r-50 m-t-n10"> </a>
+        <a href="#overviewSec">OVERVIEW <img src="./assets/img/overview_icon.png" class="overViewIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <a href="#missionSec">MISSION <img src="./assets/img/mission_icon.png" class="missionIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <a href="#visionSec">VISION <img src="./assets/img/vision_icon.png" class="visionIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <a href="#valueSec">VALUE <img src="./assets/img/value_icon.png" class="visionIconCSS m-l-20 m-r-50 m-t-n5"></a>
+        <button class="dropdown-btn">PRODUCT & SOLUTIONS <img src="./assets/img/ProductandSolution_icon.png"
+            class="m-l-9 m-r-n17 m-t-n-5 ProdandSolIconCSS">
+          <i class="fa fa-caret-down p-t-5 m-l-0 m-r-15 "></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="./lifx-product-page.html" style="padding-right:60px;">LIFX</a>
+          <a href="./ring-product-page.html" style="padding-right:60px;">RING</a>
+          <a href="./flic-product-page.html" style="padding-right:60px;">FLIC</a>
+        </div>
 
-              <ul>
-                <li><a href="#" onClick="gotoWP('/productpage-ring/')">Ring</a></li>
-                <li><a href="#" onClick="gotoWP('/productpage-lifx')">Lifx</a></li>
-                <li><a href="#" onClick="gotoWP('/productpage-flic/')">Flic</a></li>
-              </ul>
-            </li>
+        <a href="./contact-us.html">CONTACT US<img src="./assets/img/contactus_icon.png"
+            class="contactusIconCSS m-l-29 m-r-50 m-t-n5 "></a>
 
-         
+      </div>
 
-        <li><a href="#contact">Contact</a></li>
+    </div>
 
-      </ul>
-    </nav><!-- .nav-menu -->
+    <div class="w-100"><span onclick="openNav()"> <i class="fas fa-bars fa-lg p-t-40 p-l-40 p-r-40 float-r text-grey fs-21"></i></span></div>
 
   </div>
 </header><!-- End Header -->
 
 
+    <div>
+
+      
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center justify-content-center" > 
+  <section id="hero">
 
-           <!-- particles.js container --> 
-           <div id="particles-jsOri" style="height:100%"></div> 
-           <!-- stats - count particles --> 
-           <!-- <div class="count-particles"> <span class="js-count-particles">--</span> particles </div>  -->
-           <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
-           <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-           <!-- stats.js lib --> 
-           <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
-           <!-- partial -->
-           <script src="assets/js/background_Blue.js"></script> 
-
-    <div class="container" data-aos="fade-up">
- 
-
-
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <!-- <div class="col-xl-6 col-lg-8"> -->
-        <div class="col-xl-12 col-lg-12 col-md-12 " >
-          <h2 style="color:rgb(0, 183, 255);margin-top:10px;font-size:29px;font-weight:bold;">It’s All About</h2>
-          <h1 style="color:rgb(0, 183, 255);margin-top:5px;"> Automation and Technology</h1>
-          <br>
-           <!-- <h1 style="color:rgb(255, 255, 255)"> Automation <span style="font-size:15px; color:rgb(0, 183, 255); font-weight:normal;"> and</span> Technology</h1> -->
-          <h6 style="color:rgb(192, 192, 192);margin-top:0px;">At Twenty-One, we believe that modern living should be simple, better and hence, happier. We believe this can be achieved through technology. 
-          </h6>
-        </div>
-
-        <div class="text-center"> 
-          <div>
-            <a class="text-white" aria-expanded="false"  href="#aboutUsSection">
-            Find Out More
-          </a>
-          </div>
-          <div style="margin-top:-10px;"> <a class="fa fa-caret-down text-white" title="Toggle move to aboutsu" href="#aboutUsSection"></a></div>
-        </div>
-        
+    <div class="textLifxPage col-lg-6 col-md-6 col-sm-8 m-t-180">
+      <div class="lifxLogo animated bounceInDown m-l-70"><img src="./assets/img/Its_all_about_text.png">
       </div>
+      <div class="wholeRow m-l-70 w-100">
+        <div class="firstRowCSS animated bounceInLeft "><img src="./assets/img/automation_text.png" class="m-t-8"
+            style="width:480px;height:60px"></div>
+        <div class="thirdRowCSS intro-heading animated bounceInRight m-t-0"> <img src="./assets/img/and_text.png"></div>
+        <div class="forthRowCSS intro-paragraph animated bounceInUp m-t-0 m-b-0"> <img
+            src="./assets/img/technology_text.png"></div>
+        <div class="fifthRowCSS intro-paragraph animated bounceInRight"> <img
+            src="./assets/img/lifx/lifx_Hori-Line_white.png"></div>
 
+        <div class="sixthRowCSS intro-paragraph animated bounceInLeft m-t-0 m-b-0"> <img
+            src="./assets/img/atTwentyoneParagraphy_text.png"></div>
+
+        <div class="ExploreMoreCSS animated bounceInUp" style="text-align:center;margin-top:50px;width:65%; "> <a
+            href="#overviewSec"><button data-toggle="tooltip" data-placement="top"
+              title="Click here to know more about us" type="button" class="buttonExplore"
+              style="font-family:'HelveticaNeue-Light'; padding-left:20px;padding-right:20px;"> explore more</button></a></div>
+
+      </div>
     </div>
+
   </section><!-- End Hero -->
 
 
-
   <main id="main">
-    <!-- particles.js container --> 
-    <div id="particles-jsABC" style="height:330%"></div> 
-    <!-- stats - count particles --> 
-    <!-- <div class="count-particles"> <span class="js-count-particles">--</span> particles </div>  -->
-    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+
+
+    <div id="particles-js" style="height:380%;"></div>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-    <!-- stats.js lib --> 
-    <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
-    <!-- partial -->
-    <script src="assets/js/background_Blue2.js"></script> 
-    
-    
-    <!-- ======= About Section ======= -->
-    <section id="aboutUsSection" class="about">
-     
-      <div class="container" data-aos="fade-up">
+    <script src="assets/js/background_Blue.js"></script>
 
+    <!--Test using FLic 2 col-->
 
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3 style="color:rgb(0, 183, 255)">About Us</h3>
+    <!--Upgrade &amp; Simplify Your Life-->
+    <section id="overviewSec"  class="container image-copy-content vertical-site-padding ">
 
-            <p class="font-italic" style="color:grey;">Twenty-One started as a Home Solutions specialist and is the distributor of multiple strong brands in the IoT industry. Specialises in providing consultancy and tailored services through the used of IoT solutions. </p>
-
-            <p class="font-italic">
-              The team are expert in:
-            </p>
-            <ul>
-              <li style="color:grey;"><i class="ri-check-double-line" style="color:rgb(0, 183, 255)"></i> Customisation of Home Automations Solutions.</li>
-              <li style="color:grey;"><i class="ri-check-double-line" style="color:rgb(0, 183, 255)"></i> Mobile App Development.</li>
-              <li style="color:grey;"><i class="ri-check-double-line" style="color:rgb(0, 183, 255)"></i> POC and MVP Development.</li>
-              <li style="color:grey;"><i class="ri-check-double-line" style="color:rgb(0, 183, 255)"></i> Customising API & Integration and Reinventing Traditional Products.</li>
-            </ul>
-
+      <div class="row vertical-site-padding-half">
+        <div class="col-md-5 image fliclazy" data-aos="fade-right" data-aos-delay="100"
+          style="background-image: url('assets/img/overviewGif.gif');height:400px;">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6 copy" data-aos="fade-left" data-aos-delay="100" style="background:#FFFFFF96;">
+          <h3>Overview</h3>
+          <p  class="fs-15"data-aos="fade-left" data-aos-delay="120">Twenty-One, headquartered in Singapore, specialises in the
+            <span class="fw-w900 text-blueO ">DISTRIBUTION</span> of IoT products and <span
+              class="fw-w900 text-blueO">CUSTOMISATION OF SOLUTIONS</span>.</p>
+              <p class="fs-15"  data-aos="fade-left" data-aos-delay="140">Since 2013, Twenty-One has participated in solutions planning for
+                individuals and corporates. The company is a proud distributor of many
+                strong brands in the IoT industry with footprints in Singapore, Malaysia,
+                Hong Kong, and the Philippines.
+              </p>
+              <p class="fs-15" data-aos="fade-left" data-aos-delay="160">With rising global concerns, Twenty-One aims to actively plan for
+                solutions to ensure a sustainable world for generations to come.</p>
            
-          </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
 
-    <div class="d-flex border-top border-light"   data-aos="fade-up"></div>
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    </section>
 
 
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h3 style="color:rgb(0, 183, 255); font-weight:bold;">Brands</h3>
-          <p class="font-italic">Our products are available for order from the following </p>
+    <section id="missionSec" class="container image-copy-content vertical-site-padding ">
+      <div  class="row vertical-site-padding-half">
+        <div class="col-md-5 order-md-last image fliclazy" data-aos="fade-left" data-aos-delay="100"
+          style="background-image: url('assets/img/missionGif.gif');height:400px;">
         </div>
+        <div class="col-md-6 copy vertical-site-padding-half" data-aos="fade-right" data-aos-delay="100"  style="background:#FFFFFF96;">
+          <div class="">
+            <h3 data-aos="fade-right" data-aos-delay="120">OUR MISSION</h3>
+            <p class="fw-w900 text-blueO  fs-17" data-aos="fade-right" data-aos-delay="140">DISTRIBUTION</p>
+            <p class="m-t-n10 fs-15" data-aos="fade-right" data-aos-delay="160">We strive to bring the latest gadgets to satisfy like-minded enthusiasts, ensuring
+              everyone can explore the convenience, security, and transformation from
+              technological advancements.</p>
 
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-wrap1">
-              <div class="card bg-primary border-light shadow-soft">
-                <img src="assets/img/clients/Flic-01.png"  class="card-img-top rounded-top" alt="Flic brands">
-                <div class="card-body">
-                    <!-- <h3 class="h5 card-title mt-3 ">Flic</h3> -->
-                    <a href="#" onClick="gotoWP('/productpage-flic/')" class="btn btn-primary  btn-sm " style="color:rgb(0, 183, 255); ">Click to see more...</a> 
-                </div>
-              </div>
-            </div>
+            <p class="fw-w900 text-blueO fs-17" data-aos="fade-right" data-aos-delay="180">SOLUTIONS PLANNING</p>
+            <p class="m-t-n10 fs-15" data-aos="fade-right" data-aos-delay="200">We innovate and create solutions that scream convenience and flexibility. With a
+              core emphasis on user needs, every solution is a personalised plan.</p>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item ">
-            <div class="portfolio-wrap1">
-              <div class="card bg-primary border-light shadow-soft">
-                <img src="assets/img//clients/lifx-01.png" class="card-img-top rounded-top" alt="Lifx brands">
-                <div class="card-body">
-                    <!-- <h3 class="h5 card-title mt-3 ">Lifx</h3> -->
-                    <a href="#" onClick="gotoWP('/productpage-lifx/')" class="btn btn-primary  btn-sm " style="color:rgb(0, 183, 255);"> Click to see more...</a> 
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item ">
-            <div class="portfolio-wrap1">
-              <div class="card bg-primary border-light shadow-soft">
-                <img src="assets/img/clients/Ring-01.png" class="card-img-top rounded-top" alt="Ring brands">
-                <div class="card-body">
-                    <!-- <h3 class="h5 card-title mt-3 ">Ring</h3> -->
-                    <a href="#" onClick="gotoWP('/productpage-ring/')" class="btn btn-primary btn-sm" style="color:rgb(0, 183, 255); " >Click to see more...</a> 
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-
       </div>
-    </section> 
-    <!-- End Portfolio Section-->
-   
+
+    </section>
+
     
-    <!-- <div class="d-flex border-top border-light pt-6 " data-aos="fade-up"></div> -->
-
-   <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients ">
-    
-      <div class="container" data-aos="zoom-in">
-        <div class="section-title">
-          <h3 style="color:rgb(0, 183, 255); font-weight:bold;font-size:35px;">Clients</h3>
-          <p class="font-italic">Our products are available for order from the following </p>
+    <section id="visionSec" class="container image-copy-content vertical-site-padding">
+      <div class="row vertical-site-padding-half">
+        <div class="col-md-5 image fliclazy" data-aos="fade-right" data-aos-delay="100"
+          style="background-image: url('assets/img/visionGif.gif'); height:400px;">
         </div>
-
-        <div class="owl-carousel clients-carousel">
-          <a href="http://52.77.211.26/test-1_productpage/"> <img src="assets/img/clients/Flic-01.png" alt=""></a>
-          <a href="http://52.77.211.26/test-1_productpage/"> <img src="assets/img/clients/lifx-01.png" ></a>
-          <a href="http://52.77.211.26/test-1_productpage/"> <img src="assets/img/clients/Ring-01.png" ></a>
-          <a><img src="assets/img/clients/client-2.png" alt=""></a>
-          <a><img src="assets/img/clients/client-3.png" alt=""></a>
-         <a> <img src="assets/img/clients/client-4.png" alt=""></a>
- 
+        <div class="col-md-1"></div>
+        <div class="col-md-6 copy" data-aos="fade-left" data-aos-delay="100"  style="background:#FFFFFF96;">
+          <h3 data-aos="fade-left" data-aos-delay="120">OUR VISION</h3>
+          <p class="fs-15" data-aos="fade-left" data-aos-delay="140">Our vision is to be a globally competitive player in the IoT
+            industry and build solutions addressing global concerns.</p>
         </div>
-
       </div>
-    </section> -->
-    <!-- End Clients Section -->
 
+    </section>
 
-    <div class="d-flex border-top border-light"   data-aos="fade-up"></div>
   
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact ">
+
+      <div class="col-sm-1"></div>
+      <!-- </div> -->
+
+
+      <section id="valueSec" class="container image-copy-content vertical-site-padding ">
+        <div class="row vertical-site-padding-half">
+          <div class="col-md-5 order-md-last image fliclazy" data-aos="fade-left" data-aos-delay="100"
+            style="background-image: url('assets/img/valueGif.gif');height:400px;">
+          </div>
+          <div class="col-md-6 copy vertical-site-padding-half" data-aos="fade-right" data-aos-delay="100"  style="background:#FFFFFF96;">
+            <div class="">
+              <h3 data-aos="fade-right" data-aos-delay="120">OUR VALUES & BELIEFS </h3>
+              <p class="fs-15" data-aos="fade-right" data-aos-delay="140">Twenty-One aims to be the one-stop to all your problems, be it as a
+                product distributor or solutions consultant.</p>
   
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h3 style="color:rgb(0, 183, 255); font-weight:bold;font-size:35px;">Contact Us</h3>
-          <p class="font-italic" style="margin-bottom:-30px;">Let's Make Something Together.</p>
-        </div>
- 
-        <div class="section-title">
-          <h3 style="color:rgb(27, 27, 27); font-size:20px;margin-bottom:-40px;">We love to hear from you.</h3>
-        </div>
-
-        <div class="row" ></div>
-
-
-          <!-- <div class="col-lg-8 mt-5 mt-lg-0"> -->
-          <div class="col-lg-12 mt-5">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="margin-top:-30px;">
-              <div class="form-row" >
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="phonenumber" class="form-control" name="phonenumber" id="phonenumber" placeholder="Contact Number" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-
-
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Email Address" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-        
-
-                <div class="col-md-6 form-group">
-                  <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="customFile" aria-label="File upload">
-                    <label class="custom-file-label" for="customFile">Choose file</label>
-                  </div>
-                </div>
-
-              </div>
-          
-
-          <div class="form-group">
-            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                <option selected>Choose...</option>
-                <option value="0">Distibutors</option>
-                <option value="1">Integration & Customizing Solutions</option>
-                <option value="2">End user & Customre Support</option>
-                <option value="3">Feedback</option>
-            </select>
-         </div>
-        
-
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-
-              <div class="form-group">
-                  <button class="btn btn-twitch text-center" type="button" aria-label="twitch button" title="twitch button">
+              <p class="fs-15" data-aos="fade-right" data-aos-delay="160">From basic home security and lifestyle wants, to corporate regulatory
+                requirements and work simplification, Twenty-One believes that there
+                is always a difference that can be made through the use of technology.
+                No problem is ever too hard for us to resolve.</p>
+  
                 
-                    <text>Submit</text>
-                  </button>
-              </div>
-          
-            </form>
+              <p class="fs-15" data-aos="fade-right" data-aos-delay="180">Our team designs every plan as a personalised solution. Every plan is an
+                unique effort necessary to resolve pain points.</p>
+  
+            </div>
           </div>
+        </div>
+  
+  
+      </section>
+  
+      
+    </div>
+
+
+
+     
+</main>
+
+
+    <!-- ======= Footer ======= -->
+    <footer class="d-flex pt-6 pb-5 pt-md-7 border-top border-light" data-aos="fade-up" data-aos-delay="150"
+      style="background-color:#020D2D;">
+      <div class="container m-t-5">
+
+        <div class="row col-lg-12 text-greyFooter p-0" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-md-2 col-sm-4">
+            <h6 class="text-greyFooter">COMPANY</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <div class="lh-1-9 p-0 fs-14 m-b-50 m-l-15">
+              <a href="#" class="LinkTextCSS">Overview</a><br>
+              <a href="#" class="LinkTextCSS">Mission</a><br>
+              <a href="#" class="LinkTextCSS">Vision</a><br>
+              <a href="#" class="LinkTextCSS">Values</a>
+            </div>
+
 
           </div>
-        
+
+
+          <div class="col-md-3 col-sm-6">
+            <h6 class="text-greyFooter">PRODUCTS AND SOLUTIONS</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+            <div class="lh-1-9 p-0 fs-14 m-b-50 m-l-15">
+              <a href="#" class="LinkTextCSS">LIFX</a><br>
+              <a href="#" class="LinkTextCSS">Ring</a><br>
+              <a href="#" class="LinkTextCSS">flic</a>
+            </div>
+
+          </div>
+
+          <div class="col-md-2 col-sm-2 m-b-50" style="color:#1E9FD9;">
+            <h6 class="text-greyFooter" href="./contact-us.html">CONTACT</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <p class="fs-12 p-0 text-greyFooter m-l-15 lh-1-6">info@twenty-one.com.sg<br>+65 8777 5721</p>
+
+
+            <a class="ContactBtnCSS m-l-15">CONTACT US</a>
+
+          </div>
+
+
+          <div class="col-md-5 col-sm-10 p-b-30 text-greyFooter lh-1-6 ">
+            <h6 class="text-greyFooter">LOCATIONS</h6>
+            <img src="./assets/img/lifx_Hori-Line_blue.png" style="height:10px;">
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-25"><b>Singapore</b><br>
+                  <i>Twenty-One Pte Ltd</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+65 8777 5721<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; 36 Armenian Street,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; #04-10,Singapore<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 179934
+                </p>
+              </div>
+
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-n10"><b>Hong Kong</b><br>
+                  <i>Twenty-One Limited</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+852 6776 1721<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; 3Unit 504B<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 5/F Join-In Hang Sing Centre,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Nos 71-75 Container Port Road<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Kwai Chung Hong Kong<br>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-25"><b>Experience Centre</b><br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp;1A Eunos Crescent,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;#01-2477,Singapore<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;401001<br>
+                </p>
+              </div>
+
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-n10"><b>Philippines</b><br>
+                  <i>21 Corp</i><br>
+                  <i class="fas fa-phone fa-xs"></i>&nbsp;+63 921 965 2872<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp; B3 L9 San Antonio City,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Of San Pedro Laguna<br>
+                </p>
+              </div>
+
+            </div>
+
+            <div class="d-flex m-l-15">
+              <div>
+                <p class="fs-11 p-0 text-greyFooter m-r-0"><b>Malaysia</b><br>
+                  <i>21 Lifestyle Sdn Bhd</i><br>
+                  <i class="fas fa-phone  fa-xs"></i>&nbsp;+60 16 6434495<br>
+                  <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;29-3A-3, Maritime,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Persiaran Karpal Singh 2,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; 11600 Georgetown,<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp; Pulau Pinang,Malaysia<br>
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- <hr class="my-5" style="color:white;"> -->
+        <div style="background-color:white;height:1px;" class="container m-b-10" data-aos="fade-up"
+          data-aos-delay="150"></div>
+
+        <div class="row d-flex justify-content-around container text-greyFooter m-t-30 m-l-2" data-aos="fade-up"
+          data-aos-delay="150">
+
+          <div class="firstColCSS" style="margin-right:auto;">
+            <p class="font-weight-light fs-13 mb-0">© 2021 Twenty-One.</p>
+          </div>
+          <a href="https://www.instagram.com/iotasiaonline/"><i
+              class="fab fa-instagram SocialInsCSS rounded-circle fa-sm"></i> </a> &nbsp; &nbsp;
+          <a href="https://www.facebook.com/twentyonepl"><i
+              class="fab fa-facebook-f SocialFBCSS rounded-circle fa-sm"></i></a>
+          <div class="thirdColCSS font-weight-light font-small mb-0 l-h-9 p-0"
+            style="margin-left:auto;line-height:1.9;padding:0;font-size:14px;">
+            <a href="#" class="textlinkwhite fs-13">Privacy Policy</a>
+          </div>
 
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
+    </footer><!-- End Footer -->
 
 
-  <!-- ======= Address Section ======= -->
 
-  <!-- <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light" data-aos="fade-up-right"> -->
-    <div class="d-flex pb-5 pt-6 pt-md-7 border-top border-light"   data-aos="fade-up">
-    <div class="container">
+    <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 
-        <div class="row" >
-            <div class="col-lg-3">
-              <h3 style="color:rgb(0, 183, 255); font-weight:bold;font-size:25px;">Singapore </h3>
-                <p>
-                  <strong>Twenty-One Pte Ltd</strong> <br>
-                  <i class="icofont-phone"></i>&nbsp;+65 8777 5721 <br>
-                  <i class="icofont-google-map"></i>&nbsp;36 Armenian Street, <br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#04-10, Singapore 179934<br>
-                 
-                  <div></div>
-                  <strong>Experience Centre </strong><br>
-                  <i class="icofont-google-map"></i>&nbsp;1A Eunos Crescent, <br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#01-2477<br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Singapore 401001 <br>
-                </p>
-            </div>
+    <div id="preloader"></div>
 
-            <div class="col-lg-3">
-              <h3 style="color:rgb(0, 183, 255); font-weight:bold;font-size:25px;">Malaysia </h3>
-                <p>
-                  <strong>21 Lifestyle Sdn Bhd </strong> <br>
-                  <i class="icofont-phone"></i>&nbsp;+60 16 6434495 <br>
-                  <i class="icofont-google-map"></i>&nbsp;29-3A-3, Maritime, <br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Persiaran Karpal Singh 2,<br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11600 Georgetown,<br> 
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pulau Pinang, <br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Malaysia
-                </p>
-            </div>
-
-            <div class="col-lg-3">
-              <h3 style="color:rgb(0, 183, 255); font-weight:bold;font-size:25px;">Hong Kong</h3>
-                <p>
-                 <strong>Twenty-One Limited</strong> <br>
-                  <i class="icofont-phone"></i>&nbsp;+852 6776 1721<br>
-                  <i class="icofont-google-map"></i>&nbsp;3Unit 504B  <br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5/F Join-In Hang Sing Centre, <br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nos 71-75 Container Port Road<br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kwai Chung Hong Kong 
-              
-                </p>
-            </div>
-
-            <div class="col-lg-3">
-              <h3 style="color:rgb(0, 183, 255); font-weight:bold;font-size:25px;">Philippines</h3>
-                <p>
-                  <strong>21 Corp</strong> <br>
-                  <i class="icofont-phone"></i>&nbsp;+63 921 965 2872<br>
-                  <i class="icofont-google-map"></i>&nbsp;B3 L9 San Antonio City <br>
-                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Of San Pedro Laguna   <br>
-        
-              
-                </p>
-            </div>
-        </div>
-
-    </div>
-  </div><!-- End Address Section -->
-
-  <!-- ======= Footer ======= -->
-  <!-- <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light" data-aos="flip-down"> -->
-  <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light" data-aos="fade-up" data-aos-delay="150">
-    <!-- <div class="container" style="width:1000px;margin-top:-30px;"> -->
-      <div class="container" style="margin-top:-30px;">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <p>In <strong>Twenty-One</strong> we believe that modern living should be simple, better and hence, happier. We believe this can be achieved through technology.</p>
-                <p><strong>Follow us in</strong><span>:</span></p>
-                <ul class="d-flex list-unstyled mb-5 mb-lg-0">
-                    <li class="mr-2">
-                        <a href="https://www.instagram.com/iotasiaonline/" target="_blank" class="btn btn-icon-only btn-pill" aria-label="twitter social link"
-                        data-toggle="tooltip" data-placement="top" title="Follow Twenty-One on Instagram">
-                            <span aria-hidden="true" class="fab fa-instagram" style="color:#E1306C"></span>
-                        </a>
-                    </li>
-                    <li class="mr-2">
-                        <a href="https://www.facebook.com/twentyonepl  target="_blank" class="btn btn-icon-only btn-pill" aria-label="facebook social link"
-                        data-toggle="tooltip" data-placement="top" title="Like Twenty-One on Facebook">
-                            <span aria-hidden="true" class="fab fa-facebook" style="color:#4267B2"></span>
-                        </a>
-                    </li>
-                   
-                </ul>
-            </div>
-
-            <div class="col-1">
-          </div>
-
-            <div class="col-5 col-lg-2 mb-5 mb-lg-0">
-                <h5 style="color:rgb(0, 183, 255);font-size:20px;">Twenty-One</h5>
-                <ul class="footer-links list-unstyled mt-2">
-                    <li class="mb-1"><a class="p-2" target="_blank" href="#aboutUsSection">About Us</a></li>
-                    <li class="mb-1"><a class="p-2" target="_blank" href="#portfolio">Brands</a></li>
-                    <li class="mb-1"><a class="p-2" target="_blank" href="#contact">Contact</a></li>
-                    <!-- <li><a class="p-2" target="_blank" href="https://themesberg.com/contact">Contact Us</a></li> -->
-                </ul>
-            </div>
-            <!-- <div class="col-6 col-lg-2 mb-5 mb-lg-0">
-                <h5>Contact Us</h5>
-                <ul class="footer-links list-unstyled mt-2">
-                    <li class="mb-1"><a class="p-2" href="https://themesberg.com/docs/pixel-bootstrap/getting-started/overview/" target="_blank">Docs
-                        <span class="badge badge-gray text-uppercase ml-2">v1.0</span></a>
-                    </li>
-                    <li class="mb-1">
-                        <a class="p-2" href="https://themesberg.com/docs/pixel-bootstrap/getting-started/changelog" target="_blank">Changelog</a>
-                    </li>
-                    <li class="mb-1">
-                        <a class="p-2" target="_blank" href="https://themesberg.com/licensing">License</a>
-                    </li>
-                    <li>
-                        <a class="p-2" target="_blank" href="https://github.com/themesberg/pixel-bootstrap-ui-kit/issues">Support</a>
-                    </li>
-                </ul>
-            </div> -->
-            <div class="col-6 col-lg-2 mb-5 mb-lg-0">
-                <h5 style="color:rgb(0, 183, 255);font-size:20px;">Contact Us</h5>
-                <p class="text-gray font-small mt-2">  <i class="icofont-phone"></i>+65 8777 5721 </p>    
-            </div>
-        </div>
-
-        <hr class="my-5">
-        <div class="row" >
-            <div class="col">
-                <!-- <a href="https://themesberg.com" target="_blank" class="d-flex justify-content-center">
-                    <img src="../../assets/img/themesberg.svg" height="25" class="mb-3" alt="Themesberg Logo">
-                </a> -->
-            <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
-                <p class="font-weight-normal font-small mb-0">Copyright ©Twenty-One.
-                    <span class="current-year">2021</span>. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer><!-- End Footer -->
-
-  <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
-  <a href="#" class="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
-  
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
 
 
-      <!-- Core -->
-<!-- <script src="assets/vendor/jquery/dist/jquery.min.js"></script> -->
-<script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-<!-- <script src=".assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script> -->
-<script src="assets/vendor/headroom.js/dist/headroom.min.js"></script>
+    <!-- Core -->
+    <!-- <script src="assets/vendor/jquery/dist/jquery.min.js"></script> -->
+    <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <!-- <script src=".assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="assets/vendor/headroom.js/dist/headroom.min.js"></script>
 
-<!-- Vendor JS -->
-<script src="assets/vendor/onscreen/dist/on-screen.umd.min.js"></script>
-<script src="assets/vendor/nouislider/distribute/nouislider.min.js"></script>
-<script src="assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
-<script src="assets/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
-<script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
-<script src="assets/vendor/jquery.counterup/jquery.counterup.min.js"></script>
-<script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-<script src="assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script src="assets/vendor/prismjs/prism.js"></script>
+    <!-- Vendor JS -->
+    <script src="assets/vendor/onscreen/dist/on-screen.umd.min.js"></script>
+    <script src="assets/vendor/nouislider/distribute/nouislider.min.js"></script>
+    <script src="assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/vendor/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+    <script src="assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/vendor/prismjs/prism.js"></script>
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-  <!-- Neumorphism JS -->
-<script src="assets/js/neumorphism.js"></script>
+    <!-- Neumorphism JS -->
+    <script src="assets/js/neumorphism.js"></script>
 
 
- <!-- backgroundBlue  particles JS -->
-          <script src="assets/js/background_Blue.js"></script> 
-          <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
-          <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-          <!-- stats.js lib --> 
-          <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-          <!-- partial -->
-          <!-- <script src="assets/js/background_Blue.js"></script>  -->
+    <!-- backgroundBlue  particles JS -->
+    <script src="assets/js/background_Blue.js"></script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <!-- partial -->
+    <!-- <script src="assets/js/background_Blue.js"></script>  -->
 
- <!--Domain Change-->
-          <script src="assets/js/DomainChange.js"></script>
+    <!--Domain Change-->
+    <script src="assets/js/DomainChange.js"></script>
 
 </body>
 
